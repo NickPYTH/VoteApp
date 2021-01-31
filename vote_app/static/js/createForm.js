@@ -59,7 +59,44 @@ function addQuestionFun(){
         i += 1;
     }
 
-    question_block = '<div id="${i}" class="card mb-3"> <div class="card-body"> <div class="row mb-3 mb-lg-0"> <div class="col-12 d-flex justify-content-center d-lg-none"> <span class="">Заголовок вопроса</span> </div> </div> <div class="input-group mb-3"> <div class="input-group-prepend"> <span class="input-group-text d-lg-flex d-none">Заголовок вопроса</span> </div> <input name="question_header_${i}" type="text" class="form-control" placeholder="Как вам погода?" required> </div> <div class="row mb-3 mb-lg-0"> <div class="col-12 d-flex justify-content-center d-lg-none"> <span class="">Описание вопроса</span> </div> </div> <div class="input-group mb-3"> <div class="input-group-prepend"> <span class="input-group-text d-lg-flex d-none" >Описание вопроса</span> </div> <textarea id = "question_description_${i}" name = "question_description_${i}" class="form-control" placeholder="Оцените погоду по 5-ти бальной шкале"></textarea> </div> <div class="text-center"> <button id="AddAnswer_${i}" type="button" class="btn btn-light mb-lg-0 mb-3 d-none" onclick="AddAnswer(this, ${i});">Добавить ответ</button> <button id="RemoveAnswer_${i}" type="button" class="btn btn-light mb-lg-0 mb-3 d-none" onclick="RemoveAnswer(this, ${i});">Удалить ответ</button> <button id="CustomAnswers_${i}" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="CustomAnswers(this);">Задать свои ответы</button> <button id="DefaultAnswers_${i}" type="button" class="btn btn-light mb-lg-0 mb-3 active" onclick="DefaultAnswers(this);">Ответы 1-5</button> <button id="${i}" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="AddCommentField(this);">Добавить поле коментария</button> <input id="isCommentVal_${i}" name="isCommentVal_${i}" class="d-none" type="text" value="Not"> </div> </div></div>'
+    question_block = `
+    <div id="${i}" class="card mb-3">
+    <div class="card-body">
+        <div class="row mb-3 mb-lg-0">
+            <div class="col-12 d-flex justify-content-center d-lg-none">
+                <span class="">Заголовок вопроса</span>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text d-lg-flex d-none">Заголовок вопроса</span>
+            </div>
+            <input name="question_header_${i}" type="text" class="form-control" placeholder="Как вам погода?" required>
+        </div>
+
+        <div class="row mb-3 mb-lg-0">
+            <div class="col-12 d-flex justify-content-center d-lg-none">
+                <span class="">Описание вопроса</span>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text d-lg-flex d-none" >Описание вопроса</span>
+            </div>
+            <textarea id = "question_description_${i}" name = "question_description_${i}" class="form-control" placeholder="Оцените погоду по 5-ти бальной шкале"></textarea>
+        </div>
+        <div class="text-center">
+            <button id="AddAnswer_${i}" type="button" class="btn btn-light mb-lg-0 mb-3 d-none" onclick="AddAnswer(this, ${i});">Добавить ответ</button>
+            <button id="RemoveAnswer_${i}" type="button" class="btn btn-light mb-lg-0 mb-3 d-none" onclick="RemoveAnswer(this, ${i});">Удалить ответ</button>
+            <button id="CustomAnswers_${i}" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="CustomAnswers(this);">Задать свои ответы</button>
+            <button id="DefaultAnswers_${i}" type="button" class="btn btn-light mb-lg-0 mb-3 active" onclick="DefaultAnswers(this);">Ответы 1-5</button>
+            <button id="${i}" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="AddCommentField(this);">Добавить поле коментария</button>
+            <input id="isCommentVal_${i}" name="isCommentVal_${i}" class="d-none" type="text" value="Not">
+
+        </div>
+    </div>
+</div>
+    `
 
     btn.insertAdjacentHTML('beforebegin', question_block);
 }
@@ -115,7 +152,14 @@ function AddAnswer(btn, id_){
         }
         i += 1;
     }
-    answer = '<div id="${id_}_${i}_answer" class="input-group mb-3"> <div class="input-group-prepend"> <span class="input-group-text" >Ответ ${i}</span> </div> <input id="${id_}_${i}_input" name="${id_}_${i}_ans" type="text" class="form-control" placeholder="Введите ответ"> </div>'
+    answer = `
+    <div id="${id_}_${i}_answer" class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" >Ответ ${i}</span>
+        </div>
+        <input id="${id_}_${i}_input" name="${id_}_${i}_ans" type="text" class="form-control" placeholder="Введите ответ">
+    </div>
+    `
     btn.insertAdjacentHTML('beforebegin', answer);
     
 }
