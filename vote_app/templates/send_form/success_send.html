@@ -1,0 +1,60 @@
+{% extends "../base.html" %}
+{% load static %}    
+
+{% block title %}
+   Отправлено · VF
+{% endblock title %}
+
+{% block nav%}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end mb-4">
+   <a class="navbar-brand" href="">
+   <img src="{% static "images/create_form.svg" %}" width="40" height="40" alt="Logo">
+   {% block headerName %}
+   <span class="mt-2">{{ form_name }}</span>
+   {% endblock headerName %}
+   </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+         {% block headerStat %}
+         <a class="navbar-brand" href="{% url "index" %}">
+         <img src="{% static "images/vote.svg" %}" width="35" height="35" alt="Stats">
+         Главная
+         </a>
+         {% endblock headerStat %}
+      </form>
+   </div>
+</nav>
+{% endblock nav %}
+{% block content %}
+<div class="container">
+<div class="row">
+   <div class="col-12">
+      <div class="card d-flex justify-content-center text-center p-5">
+         <div class="alert alert-success text-center mb-4" role="alert">
+            Форма успешно отправлена!
+         </div>
+         <div class="text-center mb-4">
+            <p class="h3">Статистика опроса</p>
+         </div>
+         {% for record in data %}
+
+         <div class="card mb-3">
+         <h5 class="card-header">{{ record.0 }}</h5>
+            <div class="card-body text-left">
+               {% for rec in record.1 %}
+                  <h5 class="card-title">{{ rec.0 }}</h5>
+                  <progress min="0" max="{{ record.2 }}" value="{{ rec.1 }}">
+                  </progress>
+               {% endfor %}
+            </div>
+         </div>
+         {% endfor %}
+      </div>
+   </div>
+</div>
+{% endblock content %}

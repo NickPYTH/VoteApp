@@ -1,0 +1,93 @@
+{% extends "../base.html" %}
+{% load static %}    
+{% block title %}
+   {{ form_name }} · VF
+{% endblock title %}
+{% block nav%}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end mb-4">
+   <a class="navbar-brand" href="">
+   <img src="{% static "images/create_form.svg" %}" width="40" height="40" alt="Logo">
+   {% block headerName %}
+   <span class="mt-2">{{ form_name }}</span>
+   {% endblock headerName %}
+   </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+         {% block headerStat %}
+         <a class="navbar-brand" href="{% url "index" %}">
+         <img src="{% static "images/vote.svg" %}" width="35" height="35" alt="Stats">
+         Главная
+         </a>
+         {% endblock headerStat %}
+      </form>
+   </div>
+</nav>
+{% endblock nav %}
+{% block content %}
+<div class="container">
+   <div class="row">
+      <div class="col-12">
+        
+        <div class="d-flex justify-content-center h3 mb-3">
+                <p class="card-text" name="formName" > {{ form_name }}</p>
+            </div>
+        <div class="d-flex justify-content-center h3 mb-3">
+                <p  class="h6" name="formName" >Окончание опроса {{ end_date }}</p>
+                <p id="end_date" class="d-none" name="formName" >{{ end_date_short }}</p>
+            </div>
+        
+    <form method="POST">
+            {% csrf_token %}
+    <input type="hidden" name="formName" value="{{ form_name }}" />
+    {% for question in data %}
+        <div class="card text-center m-2">
+            <p name = "{{ question.0 }}" class="card-text m-2 h5">{{ question.0 }}</p>
+            <p class="card-text m-2">{{ question.1 }}</p>
+            <div style="display: flex; justify-content: center; margin-top: -25px;" class="card-body">
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="input-group">
+                            {% if question.2 == 0 %}
+                                <div class="flex-column">
+                                    {% for answer in question.3 %}
+                                            <!-- todo -->
+                                    {% endfor %}
+                                </div>
+                            {% else %}
+                                <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect01">Выберите ответ</label>
+                                </div>
+                                <select name="{{ question.0 }}" class="custom-select">
+                                {% for answer in question.3 %}
+                                    <option value="{{ answer }}"> {{ answer }}</option>
+                                {% endfor %}
+                            {% endif %}
+                            </select>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            {% if question.0 in  ques_comms %}
+            <div class="form-group mb-3 ml-5 mr-5">
+                <label for="exampleFormControlTextarea1">Ваш комментарий</label>
+                    <textarea name="{{ question.0 }}_comment" class="form-control" rows="3"></textarea>
+            </div>
+            {% endif %}
+            </div>
+        {% endfor %}        
+        <div class="d-flex justify-content-center h3 mb-3">
+            <button id="send" value="Send" type="submit" class="btn btn-secondary btn-lg m-4">Отправить</button>
+        </div>
+    </form>
+      </div>
+   </div>
+</div>
+
+<script src="{% static 'js/sendForm.js' %}"></script>
+{% endblock content %}

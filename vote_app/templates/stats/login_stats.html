@@ -1,0 +1,69 @@
+{% extends "../base.html" %}
+{% load static %}    
+
+{% block title %}
+   Вход · VF
+{% endblock title %}
+
+{% block nav%}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end mb-4">
+   <a class="navbar-brand" href="">
+   <img src="{% static "images/create_form.svg" %}" width="40" height="40" alt="Logo">
+   {% block headerName %}
+   <span class="mt-2">Статистика</span>
+   {% endblock headerName %}
+   </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+         {% block headerStat %}
+         <a class="navbar-brand" href="{% url 'index' %}">
+         <img src="{% static "images/vote.svg" %}" width="35" height="35" alt="Stats">
+         Главная
+         </a> 
+         {% endblock headerStat %}
+      </form>
+   </div>
+</nav>
+{% endblock nav %}
+{% block content %}
+<div class="container">
+   <div class="row">
+      <div class="col-8 offset-2">
+         <form method="POST" class="form-signin">
+            {% csrf_token %}
+            <div class="text-center mb-4">
+            <img class="mb-4" src="{% static "images/logo_black.svg" %}" alt="" width="72" height="72">
+            <p>Для входа введите имя формы и пароль</p>
+            </div>
+
+            <div class="form-label-group mb-3">
+            {% if form_error %}
+               <div class="alert alert-danger" role="alert">
+                  Формы с таким именем не существует
+               </div>
+            {% endif %}
+            <input type="text" id="inputEmail" name="form_name" class="form-control mb-1" placeholder="Введите имя формы" required autofocus>
+            <label for="inputEmail">Имя формы</label>
+            </div>
+
+            <div class="form-label-group mb-3">
+            {% if password_error %}
+               <div class="alert alert-danger" role="alert">
+                  Неверный пароль
+               </div>
+            {% endif %}
+            <input type="password" id="inputPassword" name="password" class="form-control mb-1" placeholder="Введите пароль" required>
+            <label for="inputPassword">Пароль</label>
+            </div>
+            
+            <button class="btn btn-lg btn-secondary btn-block" type="submit">Войти</button>
+         </form>
+      </div>
+   </div>
+</div>
+{% endblock content %}

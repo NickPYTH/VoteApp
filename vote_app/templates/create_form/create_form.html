@@ -1,0 +1,163 @@
+{% extends "../base.html" %}
+{% load static %}  
+
+{% block title %}
+    Создание · VF
+{% endblock title %}
+
+{% block nav%}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end mb-4">
+   <a class="navbar-brand" href="{% url "createForm" %}">
+   <img src="{% static "images/create_form.svg" %}" width="40" height="40" alt="Logo">
+   {% block headerName %}
+   <span class="mt-2 align-middle">Создание формы</span>
+   {% endblock headerName %}
+   </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      </ul>
+      <form class="form-inline my-2 my-lg-0 ">
+         {% block headerStat %}
+         <a class="navbar-brand " href="{% url "index" %}">
+         <img src="{% static "images/vote.svg" %}" width="35" height="35" alt="Stats">
+         Главная
+         </a>
+         <a class="navbar-brand" href="{% url "stats" %}">
+         <img src="{% static "images/stats.svg" %}" width="35" height="35" alt="Stats">
+         Статистика
+         </a> 
+         {% endblock headerStat %}
+      </form>
+   </div>
+</nav>
+{% endblock nav %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form method="POST">
+                    {% csrf_token%}
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="row mb-3 mb-lg-0">
+                                <div class="col-12 d-flex justify-content-center d-lg-none text-center">
+                                    <span style="width:14rem;" class="">Имя формы</span>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend d-lg-flex d-none ">
+                                    <span style="width:14rem;" class="input-group-text">Имя формы</span>
+                                </div>
+                                <input name="form_name" type="text" class="form-control" placeholder="Например 'Опрос пациентов'" required>
+                            </div>
+                            <div class="row mb-3 mb-lg-0">
+                                <div class="col-12 d-flex justify-content-center d-lg-none text-center">
+                                    <span style="width:14rem;" class="">Пароль к результатам</span>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-prepend d-lg-flex d-none">
+                                    <span style="width:14rem;" class="input-group-text">Пароль к результатам</span>
+                                </div>
+                                <input name="form_pass" type="password" class="form-control" placeholder="Например '8008'" required>
+                            </div>
+                            {% if vote_exist %}
+                                <div class="alert alert-danger mt-4" role="alert">
+                                    Форма с таким названием уже существует
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <div id="end_date" class="card mb-3">
+                        <div class="card-body">
+                            <div class="row mb-3 mb-lg-0">
+                                <div class="col-12 d-flex justify-content-center d-lg-none text-center">
+                                    <span style="width:14rem;" class="">Дата окончания</span>
+                                </div>
+                            </div>
+                            <!-- <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span style="width:14rem;" style="width:14rem;" class="input-group-text d-lg-flex d-none">Дата начала</span>
+                                </div>
+                                <input id="start_date_in" name="start_date" type="date" class="form-control" onChange="checkDate(this);"  required>
+                            </div> -->
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <span style="width:14rem;" class="input-group-text d-lg-flex d-none">Дата окончания</span>
+                                </div>
+                                <input id="end_date_in" name="end_date" type="date" class="form-control mr-3" required>
+                                <button type="button" class="btn btn-outline-secondary" onclick="remove_end_date(this)">Бессрочная форма</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="1" class="card mb-3">
+                        <div class="card-body">
+                            <div class="row mb-3 mb-lg-0">
+                                <div class="col-12 d-flex justify-content-center d-lg-none text-center">
+                                    <span style="width:14rem;" class="">Заголовок вопроса</span>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span style="width:14rem;" class="input-group-text d-lg-flex d-none">Заголовок вопроса</span>
+                                </div>
+                                <input name="question_header_1" type="text" class="form-control" placeholder="Как вам погода?" required>
+                            </div>
+
+                            <div class="row mb-3 mb-lg-0">
+                                <div class="col-12 d-flex justify-content-center d-lg-none text-center">
+                                    <span style="width:14rem;" class="">Описание вопроса</span>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span style="width:14rem;" class="input-group-text d-lg-flex d-none" >Описание вопроса</span>
+                                </div>
+                                <textarea id = "question_description_1" name="question_description_1" class="form-control" placeholder="Выберите вариант ответа от 1 до 5"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button id="AddAnswer_1" type="button" class="btn btn-light d-none mb-lg-0 mb-3" onclick="AddAnswer(this, 1);">Добавить ответ</button>
+                                <button id="RemoveAnswer_1" type="button" class="btn btn-light d-none mb-lg-0 mb-3" onclick="RemoveAnswer(this, 1);">Удалить ответ</button>
+                                <button id="CustomAnswers_1" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="CustomAnswers(this);">Задать свои ответы</button>
+                                <button id="DefaultAnswers_1" type="button" class="btn btn-light active mb-lg-0 mb-3" onclick="DefaultAnswers(this);">Ответы 1-5</button>
+                                <button id="1" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="AddCommentField(this);">Добавить поле коментария</button>
+                                <input id="isCommentVal_1" name="isCommentVal_1" class="d-none" type="text">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div id="addQuestion" class="row mb-3">
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="button" class="btn btn-secondary" style="width:18rem;" onclick="addQuestionFun()">Добавить вопрос</button>
+                        </div>
+                    </div>
+                    <div id="removeQuestion" class="row  mb-3">
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="button" class="btn btn-secondary" style="width:18rem;" onclick="removeQuestionFun()">Удалить последний вопрос</button>
+                        </div>
+                    </div>
+                    <div id="removeQuestion" class="row  mb-3">
+                        <div class="col-12 d-flex justify-content-center">
+                            <button id="send" value="Send" type="submit" class="btn btn-secondary" style="width:18rem;">Создать форму</button>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                    
+
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="{% static 'js/createForm.js' %}"></script>
+    
+{% endblock content %}

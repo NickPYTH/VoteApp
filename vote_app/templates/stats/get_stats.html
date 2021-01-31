@@ -1,0 +1,112 @@
+{% extends "../base.html" %}
+{% load static %}    
+
+{% block title %}
+   Статистика · VF
+{% endblock title %}
+
+{% block nav%}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end mb-4">
+   <a class="navbar-brand" href="">
+   <img src="{% static "images/create_form.svg" %}" width="40" height="40" alt="Logo">
+   {% block headerName %}
+   <span class="mt-2">Статистика</span>
+   {% endblock headerName %}
+   </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+         {% block headerStat %}
+         <a class="navbar-brand" href="{% url 'index' %}">
+         <img src="{% static "images/vote.svg" %}" width="35" height="35" alt="Stats">
+         Главная
+         </a> 
+         {% endblock headerStat %}
+      </form>
+   </div>
+</nav>
+{% endblock nav %}
+{% block content %}
+<div class="container">
+   <div class="row mb-5">
+    
+    <div class="jumbotron col-12">
+        <h1 class="display-4">{{ form_name }}</h1>
+        <hr class="my-4">
+        <p>Скачайте все результаты опроса в качестве таблиц excel файла </p>
+        <p class="lead">
+          <a style="color: white !important;" class="btn btn-primary btn-lg" onclick="myfiledownload()" role="button">Скачать</a>
+        </p>
+      </div>
+
+         {% for question in questions %}
+            <div class="col-lg-4 col-12 mb-lg-2 mb-1">
+               <canvas id="{{ question.0 }}" width="100" height="100"></canvas>
+            </div>
+         {% endfor %}
+
+   </div>
+</div>
+
+<script>
+    function myfiledownload(){
+        window.location.href = "{{ download_link }}"
+    }
+</script>
+{% for question in questions %}
+<script>            
+var ctx = document.getElementById('{{ question.0 }}').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: [
+                    {% for ans1 in question.2 %}
+                            "{{ ans1 }}",  
+                    {% endfor %}
+                  ],
+        datasets: [{
+            label: "{{ question.0 }}",
+            data: [
+                    {% for ans in question.1 %}
+                            {{ ans }},  
+                    {% endfor %}
+                  ],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+         
+{% endfor %}
+
+
+{% endblock content %}
