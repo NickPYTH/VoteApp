@@ -7,6 +7,8 @@ import pandas as pd
 from math import sqrt
 from collections import Counter
 from django.conf import settings
+from django_ajax.decorators import ajax
+import json
 
 def login_stats(request):
     if request.method == "GET":
@@ -65,9 +67,9 @@ def login_stats(request):
                 jump -= 1
             if len(tmp) == const_jump:  group_answers.append(tmp)
 
-        for record in group_answers:
-            for i, question in enumerate(questions):
-                questions[question].append(record[i])
+        
+        for i, question in enumerate(questions):    
+            questions[question].append(group_answers[i][0])
 
         questions['id'] = id_list
         

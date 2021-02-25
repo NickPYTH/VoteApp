@@ -51,7 +51,6 @@ INSTALLED_APPS = [
     'create_form',
     'send_form',
     'stats',
-    'g_recaptcha',
 ]
 
 MIDDLEWARE = [
