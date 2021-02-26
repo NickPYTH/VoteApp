@@ -35,7 +35,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['188.225.83.42', 'voteforms.anketa-pvi.ru', '127.0.0.1']
 
-INDEX_LINK = 'http://anketa-pvi.ru/'
+INDEX_LINK = 'http://voteforms.anketa-pvi.ru/'
 
 #INDEX_LINK = 'http://127.0.0.1:8000/'
 
