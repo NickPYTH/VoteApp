@@ -33,7 +33,7 @@ SECRET_KEY = '=xp#=)=(4rn+)0(*371z8t@g%xw@)kz$qh9#w^dn=bi@pjmw%&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['188.225.83.42', 'anketa-pvi.ru', 'anketa-pvi','www.anketa-pvi.ru' , '127.0.0.1']
+ALLOWED_HOSTS = ['188.225.83.42', 'voteforms.anketa-pvi.ru', '127.0.0.1']
 
 INDEX_LINK = 'http://anketa-pvi.ru/'
 
