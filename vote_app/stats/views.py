@@ -7,7 +7,6 @@ import pandas as pd
 from math import sqrt
 from collections import Counter
 from django.conf import settings
-from django_ajax.decorators import ajax
 import json
 
 def login_stats(request):
