@@ -121,12 +121,32 @@
                                 </div>
                                 <textarea id = "question_description_1" name="question_description_1" class="form-control" placeholder="Выберите вариант ответа от 1 до 5"></textarea>
                             </div>
+
+                            <div class="card mb-3">
+                            <div class="card-body text-center">
+
+                                <div id="1_Group_1" class="row mb-3">
+                                    <div class="col-4 d-inline-block">
+                                        <input name="GroupAns_1" type="text" class="form-control" placeholder="Имя группы">
+                                    </div>
+                                    <div class="col-7 d-inline-block">
+                                        <input id='SubAns_1_1' name="SubAns_1_1" type="text" class="form-control mb-3" placeholder="Дочерний элемент">
+                                        <button id='AddSub_1' type="button" class="btn btn-secondary mb-lg-0 mb-3" onclick="AddSubAnswer(this);">Добавить элемент</button>
+                                        <button id='RemSub_1' type="button" class="btn btn-secondary mb-lg-0 mb-3" onclick="RemoveSubAnswer(this);">Удалить элемент</button>
+                                    </div>
+                                </div>
+
+                                <button id='AddGroup_1' type="button" class="btn btn-secondary mb-lg-0 mb-3" onclick="AddGroupAnswer(this);">Добавить группу</button>
+                            </div>
+                            </div>                            
+
                             <div class="text-center">
                                 <button id="AddAnswer_1" type="button" class="btn btn-light d-none mb-lg-0 mb-3" onclick="AddAnswer(this, 1);">Добавить ответ</button>
                                 <button id="RemoveAnswer_1" type="button" class="btn btn-light d-none mb-lg-0 mb-3" onclick="RemoveAnswer(this, 1);">Удалить ответ</button>
                                 <button id="CustomAnswers_1" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="CustomAnswers(this);">Задать свои ответы</button>
                                 <button id="DefaultAnswers_1" type="button" class="btn btn-light active mb-lg-0 mb-3" onclick="DefaultAnswers(this);">Ответы 1-5</button>
-                                <button id="1" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="AddCommentField(this);">Добавить поле коментария</button>
+                                <button id="SubAnswers_1" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="SubAnswers(this);">New</button>
+                                <button id="112" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="AddCommentField(this);">Добавить поле коментария</button>
                                 <input id="isCommentVal_1" name="isCommentVal_1" class="d-none" type="text">
                                 
                             </div>
