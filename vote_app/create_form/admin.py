@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Question, Form, Answer, FormSended, Comments
+from .models import Question, Form, Answer, FormSended, Comments, SubAnswer, SubAnswerChosen
 
 
 @admin.register(Question)
@@ -14,6 +14,10 @@ class FormAdmin(admin.ModelAdmin):
 class AnswerAdmin(admin.ModelAdmin):
     list_display = ("answer_value", )
 
+@admin.register(SubAnswer)
+class SubAnswerAdmin(admin.ModelAdmin):
+    list_display = ("answer_value", )
+
 @admin.register(FormSended)
 class FormSendedAdmin(admin.ModelAdmin):
     list_display = ("report_id", "form")
@@ -21,3 +25,7 @@ class FormSendedAdmin(admin.ModelAdmin):
 @admin.register(Comments)
 class CommentsAdmin(admin.ModelAdmin):
     pass
+
+@admin.register(SubAnswerChosen)
+class SubAnswerChosenAdmin(admin.ModelAdmin):
+    list_display = ("answer", "sub_answer")

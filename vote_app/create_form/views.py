@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Question, Answer, Form, Comments
+from .models import Question, Answer, Form, Comments, SubAnswer
 import hashlib
 from django.conf import settings
 import qrcode
@@ -17,34 +17,65 @@ def create_form(request):
         if not end_date:
             end_date = '2077-07-07'
         password = request.POST['form_pass']
+        
         i = 1
         questions = {}
+        groups = [] 
         while True:
             questions_tmp = {}
+            
             try:
+                question_type = request.POST[str(i)+"_ques_type"]
                 is_def = True
                 tmp = 'question_header_' + str(i)
                 questions_tmp['Header']=request.POST[tmp]
                 tmp = 'question_description_' + str(i)
                 questions_tmp['Description']=request.POST[tmp]
+                questions_tmp['Type']=question_type
                 j = 1
-                while True:
-                    try:
-                        request.POST[str(i)+"_"+str(j)+"_ans"]
-                        tmp = request.POST[str(i)+"_"+str(j)+"_ans"]
-                        questions_tmp['Ans_'+str(j)] = tmp
-                        is_def = False
-                    except:
-                        break
-                    j += 1
-                if is_def:
-                    for j in range(1, 6):
-                        questions_tmp['Ans_'+str(i)+'_'+str(j)] = j
-                questions[i] = questions_tmp
+                if question_type != "sub_answers":
+                    while True:                  
+                        try:
+                            request.POST[str(i)+"_"+str(j)+"_ans"]
+                            tmp = request.POST[str(i)+"_"+str(j)+"_ans"]
+                            questions_tmp['Ans_'+str(j)] = tmp
+                            is_def = False
+                        except:
+                            break
+                        j += 1
+                    if is_def:
+                        for j in range(1, 6):
+                            questions_tmp['Ans_'+str(i)+'_'+str(j)] = j
+                    questions[i] = questions_tmp
+                if question_type == "sub_answers":
+                    question_number = i
+                    group_number = 1
+                    while True:# GroupAns_1_1 SubAns_1_1_1
+                        if request.POST.get("GroupAns_{0}_{1}".format(i, group_number), False):
+                            question = request.POST.get("question_header_{0}".format(i), False)
+                            description = request.POST.get("question_description_{0}".format(i), False)
+                            head = request.POST.get("GroupAns_{0}_{1}".format(i, group_number))
+                            body = []
+                            answers_counter = 1
+                            while True:
+                                if request.POST.get("SubAns_{0}_{1}_{2}".format(i, group_number, answers_counter), False):
+                                    
+                                    body.append(request.POST.get("SubAns_{0}_{1}_{2}".format(i, group_number, answers_counter)))
+                                else:
+                                    break
+                                answers_counter += 1
+                            groups.append([question, description, head, body])
+                            head = None
+                            body = None
+                        else:
+                            break
+                        group_number += 1
             except:
                 break
             i += 1
+
         temporaly_link = hashlib.sha1(form_name.encode('utf-8')).hexdigest()
+        
         questions['end_date'] = end_date
 
         img = qrcode.make(settings.INDEX_LINK+str(temporaly_link))
@@ -85,10 +116,28 @@ def create_form(request):
                         record.answer_field.add(tmp)
                 form.questions.add(record)
 
+        
+        question_with_groups = []
+        for question_group in groups:
+            if question_group[0] not in question_with_groups:
+                uniq_ques_key = random.randint(1,9000000)
+                ques = Question.objects.create(header=question_group[0], description=question_group[1], question_id=uniq_ques_key, has_comment=False)
+                ques.save()
+                form.questions.add(ques)
+                question_with_groups.append(question_group[0])
+            ans = Answer.objects.create(answer_value=question_group[2], answer_id=uniq_ques_key)
+            ans.save()
+            ques.answer_field.add(ans)
+
+            for sub in question_group[3]:
+                s = SubAnswer.objects.create(answer_id=uniq_ques_key, answer_value=sub)
+                s.save()
+                ans.sub_answer.add(s)
+
+
         data = {
             'form_name' : form_name,
             'slug' : settings.INDEX_LINK+str(temporaly_link),
-            'GOOGLE_RECAPTCHA_SITE_KEY': settings.GOOGLE_RECAPTCHA_SITE_KEY,
         }
         return render(request, "create_form/success_created_form.html", context=data)
     else:

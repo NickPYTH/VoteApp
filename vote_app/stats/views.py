@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from create_form.models import Question, Answer, Form, FormSended, Comments
+from create_form.models import Question, Answer, Form, FormSended, Comments, SubAnswer, SubAnswerChosen
 from django.http import HttpResponse
 import random
 import datetime
@@ -35,6 +35,7 @@ def login_stats(request):
             return render(request, "stats/login_stats.html", context=data)
 
         forms = FormSended.objects.filter(form=Form.objects.get(form_name=form_name))
+        tmp_s_a = []
         answers = []
         questions = {}
         questions_list = []
@@ -44,10 +45,17 @@ def login_stats(request):
         for form in forms:
             for answer in form.answers.all():
                 question = Question.objects.get(question_id=answer.answer_id)
+
+                sub_ans = SubAnswerChosen.objects.filter(answer=answer, form=form)
+                if len(sub_ans) != 0:
+                    for s_a in sub_ans:
+                        tmp_s_a.append(s_a)
+                
+
                 if question.has_comment:
                     comments_list.append([form.report_id, question.header, Comments.objects.get(report_id=form, question=question).text])
                 if question.header not in questions:
-                    questions[question.header] = []
+                    questions[question.header] = []                  
                     questions_list.append(question)
                 answers.append(answer.answer_value)
 
@@ -66,15 +74,24 @@ def login_stats(request):
                 jump -= 1
             if len(tmp) == const_jump:  group_answers.append(tmp)
 
-        
+    
         for i, question in enumerate(questions):    
-            questions[question].append(group_answers[i][0])
+            flag = True
+            for s in tmp_s_a:
+                print(group_answers[i][0])
+                print(s)
+                if str(group_answers[i][0]) == str(s):
+                    questions[question].append(str(group_answers[i][0]) + " , " + str(s.sub_answer.answer_value))
+                    flag = False
+            if flag:
+                questions[question].append(group_answers[i][0])
+
 
         questions['id'] = id_list
         
         forms_sended_df = pd.DataFrame(questions)
         forms_sended_df = forms_sended_df.set_index('id')
-
+        #print(forms_sended_df)
         comments['id'] = [el[0] for el in comments_list]
         comments['Вопрос'] = [el[1] for el in comments_list]
         comments['Комментарий'] = [el[2] for el in comments_list]
@@ -112,10 +129,16 @@ def login_stats(request):
             tmp_1 = []
             for q in questions[ques]:
                 tmp_1.append(q)
-            tmp_1 = Counter(tmp_1)
+            try:
+                tmp_1 = Counter(tmp_1)
+            except:
+                pass
             ans_list_val = []
             for el in tmp_1:
-                ans_list_val.append(tmp_1[el]) 
+                try:
+                    ans_list_val.append(tmp_1[el]) 
+                except:
+                    pass
             tmp.append(ans_list_val)
             tmp.append(ans_list[i])
             res.append(tmp)

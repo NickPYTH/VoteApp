@@ -46,28 +46,43 @@
     <input type="hidden" name="formName" value="{{ form_name }}" />
     {% for question in data %}
         <div class="card text-center m-2">
-            <p name = "{{ question.0 }}" class="card-text m-2 h5">{{ question.0 }}</p>
-            <p class="card-text m-2">{{ question.1 }}</p>
+            <p name = "{{ question.1 }}" class="card-text m-2 h5">{{ question.1 }}</p>
+            <p class="card-text m-2">{{ question.2 }}</p>
             <div style="display: flex; justify-content: center; margin-top: -25px;" class="card-body">
                 <div class="row mt-3">
                     <div class="col-12">
                         <div class="input-group">
-                            {% if question.2 == 0 %}
-                                <div class="flex-column">
-                                    {% for answer in question.3 %}
-                                            <!-- todo -->
-                                    {% endfor %}
-                                </div>
+                            {% if question.4 == "sub" %}
+                            <div class="input-group-prepend">
+                                    <select style="width: 150px;" id="group_{{question.0}}" name="{{ question.1 }}" onchange="ChangeGroup(this);" class="custom-select">
+                                    <option>Выберите</option>
+                                    {% for answer in question.5 %}
+                                        <option value="{{ answer.0 }}">{{ answer.0 }}</option>
+                                    {% endfor %}   
+                                    </select>    
+
+                                    <select style="width: 150px;" id="ans_group_{{question.0}}" name="sub_{{ question.1 }}" class="custom-select">
+                                    {% for answer in question.5 %}
+                                            {% for ans in answer.1 %}
+                                                <option id="{{answer.0}}_{{ans}}" value="{{ ans }}" disabled hidden>{{ans}}</option>
+                                            {% endfor %}
+
+                                    {% endfor %}   
+                                    </select>  
+                            </div>
+                                
+                            
                             {% else %}
                                 <div class="input-group-prepend">
                                 <label class="input-group-text" for="inputGroupSelect01">Выберите ответ</label>
                                 </div>
-                                <select name="{{ question.0 }}" class="custom-select">
-                                {% for answer in question.3 %}
+                                <select name="{{ question.1 }}" class="custom-select">
+                                {% for answer in question.5 %}
                                     <option value="{{ answer }}"> {{ answer }}</option>
-                                {% endfor %}
+                                {% endfor %}   
+                            </select>     
                             {% endif %}
-                            </select>
+                            
                         </div>
                         
                     </div>
@@ -88,6 +103,56 @@
       </div>
    </div>
 </div>
+
+
+<script>
+    var data = new Map();
+    {% for question in data %}
+        {% if question.4 == "sub" %}
+            {% for answer in question.5 %}                      
+            data.set("{{answer.0}}", 
+            [ {% for ans in answer.1 %}
+                    "{{ans}}",
+                {% endfor %} ]
+            )
+            {% endfor %}
+        {%endif%}
+    {%endfor%}
+   
+function ChangeGroup(slct){
+    
+    if (data.get(slct.value) != undefined){
+        let group_ans = data.get(slct.value);
+        let all_ans = document.getElementById("ans_"+slct.id);
+        let all_ans_arr = new Array();
+        for (i = 0; i < all_ans.options.length; i++){
+            all_ans_arr[i] = all_ans.options.item(i).id;
+            document.getElementById(all_ans.options.item(i).id).setAttribute("hidden", true);
+            document.getElementById(all_ans.options.item(i).id).setAttribute("disabled", true);
+        }
+        
+        group_ans.forEach(element => {
+            let el = document.getElementById(slct.value+"_"+element);
+            el.removeAttribute("hidden");
+            el.removeAttribute("disabled");
+        });
+    }
+    else{
+        let all_ans = document.getElementById("ans_"+slct.id);
+        let all_ans_arr = new Array();
+        for (i = 0; i < all_ans.options.length; i++){
+            all_ans_arr[i] = all_ans.options.item(i).id;
+            document.getElementById(all_ans.options.item(i).id).setAttribute("hidden", true);
+            document.getElementById(all_ans.options.item(i).id).setAttribute("disabled", true);
+        }
+    }
+    
+    
+
+}
+
+</script>
+
 
 <script src="{% static 'js/sendForm.js' %}"></script>
 {% endblock content %}

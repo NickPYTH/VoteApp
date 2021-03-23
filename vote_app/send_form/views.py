@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from create_form.models import Question, Answer, Form, FormSended, Comments
+from create_form.models import Question, Answer, Form, FormSended, Comments, SubAnswer, SubAnswerChosen
 from django.http import HttpResponse
 import random
 import datetime
@@ -42,14 +42,29 @@ def send_form(request):
         ques_comms = []
         for i, ques in enumerate(query.questions.all()):
             tmp = []
+            tmp.append(i)
             tmp.append(ques.header)
             tmp.append(ques.description)
             tmp.append(len(ques.answer_field.all()))
+            
+            pairs = []
+            if len(ques.answer_field.first().sub_answer.all()) != 0:
+                tmp.append("sub")
+                for ans in ques.answer_field.all():
+                    pairs_tmp = []
+                    for a_s in ans.sub_answer.all():
+                        pairs_tmp.append(a_s.answer_value)
+                    pairs.append([ans.answer_value, pairs_tmp])
+                tmp.append(pairs)
+            else:
+                tmp.append("other")
+
             tmp.append([ans for ans in ques.answer_field.all()])
+
             ques_ans.append(tmp)
             if ques.has_comment:
                 ques_comms.append(ques.header)
-
+        print(ques_ans)
         try:
             if int(query.end_date.month) < 10:
                 month = '0' + str(query.end_date.month)
@@ -85,7 +100,12 @@ def send_form(request):
             
             for ques in questions_query:
                 ans_list.append(request.POST.get(ques.header))
-                sended_form.answers.add(Answer.objects.get(answer_id = ques.question_id, answer_value = request.POST.get(ques.header)))
+                ans = Answer.objects.get(answer_id = ques.question_id, answer_value = request.POST.get(ques.header))
+                sended_form.answers.add(ans)
+                
+                if request.POST.get("sub_"+str(ques.header), False):
+                    sub_ans = ans.sub_answer.get(answer_value=request.POST.get("sub_"+str(ques.header), False))
+                    SubAnswerChosen.objects.create(answer=ans, form=sended_form, sub_answer=sub_ans).save()
 
                 if ques.has_comment:
                     Comments.objects.create(report_id=sended_form, question=ques, text=request.POST.get(ques.header+'_comment'))

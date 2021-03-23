@@ -26,3 +26,4 @@ if (document.cookie.match(current_url) != null){
     document.getElementById("send").disabled = true;
     document.getElementById("send").textContent = "Вы уже голосовали"; 
 }
+

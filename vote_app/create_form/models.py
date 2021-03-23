@@ -2,9 +2,18 @@ from django.db import models
 import datetime
 from django.contrib import admin
 
+class SubAnswer(models.Model):
+    answer_id = models.CharField(max_length=60)
+    answer_value = models.CharField(max_length=60)
+
+    def __str__(self):
+        return str(self.answer_value)
+
+
 class Answer(models.Model):
     answer_id = models.CharField(max_length=60)
     answer_value = models.CharField(max_length=60)
+    sub_answer = models.ManyToManyField(SubAnswer, blank=True)
 
     class Meta:
         verbose_name = "ответы"
@@ -66,6 +75,14 @@ class Comments(models.Model):
     #def __str__(self):
     #    return str(self.text)
 
+
+class SubAnswerChosen(models.Model):
+    answer = models.ForeignKey(Answer, on_delete=models.CASCADE)
+    form = models.ForeignKey(FormSended, on_delete=models.DO_NOTHING)
+    sub_answer = models.ForeignKey(SubAnswer, on_delete=models.DO_NOTHING)
+
+    def __str__(self):
+        return str(self.answer)
 
 
 
