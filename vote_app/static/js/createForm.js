@@ -34,7 +34,7 @@ function checkDate(inp) {
       is_error = true;
     }
 
-    alert(is_error);
+    
   }
 
   if (inp.id == "end_date_in") {
@@ -301,7 +301,7 @@ function AddSubAnswer(btn){
 }
 
 function RemoveSubAnswer(btn){
-  alert(btn.id)
+ 
   var id_ = btn.id.toString().slice(-1);
   var ques_id = btn.id.toString().slice(-3,-2);
   var i = 1;
@@ -322,7 +322,7 @@ function RemoveSubAnswer(btn){
 function AddGroupAnswer(btn){
 
   var id_ = btn.id.toString().slice(-1);
-  alert(btn.id.toString());
+
   var i = 1;
   var answer;
 
