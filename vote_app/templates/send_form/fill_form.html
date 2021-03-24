@@ -130,11 +130,14 @@ function ChangeGroup(slct){
             document.getElementById(all_ans.options.item(i).id).setAttribute("hidden", true);
             document.getElementById(all_ans.options.item(i).id).setAttribute("disabled", true);
         }
-        
+       // alert(group_ans);
         group_ans.forEach(element => {
             let el = document.getElementById(slct.value+"_"+element);
-            el.removeAttribute("hidden");
-            el.removeAttribute("disabled");
+	    if (el != null){
+                el.removeAttribute("hidden");
+                el.removeAttribute("disabled");
+	    }
+	   // alert(el.value);}
         });
     }
     else{
