@@ -88,25 +88,6 @@ def create_form(request):
                 'vote_exist' : True,
             }
             return render(request, "create_form/create_form.html", context=data)
-#-------------------------------------------       
-        question_with_groups = []
-        for question_group in groups:
-            if question_group[0] not in question_with_groups:
-                uniq_ques_key = random.randint(1,9000000)
-                ques = Question.objects.create(header=question_group[0], description=question_group[1], question_id=uniq_ques_key, has_comment=False)
-                ques.save()
-                form.questions.add(ques)
-                question_with_groups.append(question_group[0])
-            ans = Answer.objects.create(answer_value=question_group[2], answer_id=uniq_ques_key)
-            ans.save()
-            ques.answer_field.add(ans)
-
-            for sub in question_group[3]:
-                s = SubAnswer.objects.create(answer_id=uniq_ques_key, answer_value=sub)
-                s.save()
-                ans.sub_answer.add(s)
-#-------------------------------------------
-
 #-------------------------------------------
         for i, el in enumerate(questions):
             is_def = True
@@ -136,7 +117,23 @@ def create_form(request):
                 form.questions.add(record)
 #-------------------------------------------
 
+#-------------------------------------------       
+        question_with_groups = []
+        for question_group in groups:
+            if question_group[0] not in question_with_groups:
+                uniq_ques_key = random.randint(1,9000000)
+                ques = Question.objects.create(header=question_group[0], description=question_group[1], question_id=uniq_ques_key, has_comment=False)
+                ques.save()
+                form.questions.add(ques)
+                question_with_groups.append(question_group[0])
+            ans = Answer.objects.create(answer_value=question_group[2], answer_id=uniq_ques_key)
+            ans.save()
 
+            for sub in question_group[3]:
+                s = SubAnswer.objects.create(answer_id=uniq_ques_key, answer_value=sub)
+                s.save()
+                ans.sub_answer.add(s)
+#-------------------------------------------
 
         data = {
             'form_name' : form_name,

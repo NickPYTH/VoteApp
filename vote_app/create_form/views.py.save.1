@@ -88,6 +88,7 @@ def create_form(request):
                 'vote_exist' : True,
             }
             return render(request, "create_form/create_form.html", context=data)
+
 #-------------------------------------------       
         question_with_groups = []
         for question_group in groups:
@@ -106,6 +107,7 @@ def create_form(request):
                 s.save()
                 ans.sub_answer.add(s)
 #-------------------------------------------
+
 
 #-------------------------------------------
         for i, el in enumerate(questions):
@@ -135,8 +137,6 @@ def create_form(request):
                         record.answer_field.add(tmp)
                 form.questions.add(record)
 #-------------------------------------------
-
-
 
         data = {
             'form_name' : form_name,
