@@ -28,6 +28,7 @@ class Question(models.Model):
     description = models.TextField()
     answer_field = models.ManyToManyField(Answer)
     has_comment = models.BooleanField()
+    
 
     class Meta:
         verbose_name = "вопросы"

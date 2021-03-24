@@ -47,21 +47,22 @@
     {% for question in data %}
         <div class="card text-center m-2">
             <p name = "{{ question.1 }}" class="card-text m-2 h5">{{ question.1 }}</p>
-            <p class="card-text m-2">{{ question.2 }}</p>
-            <div style="display: flex; justify-content: center; margin-top: -25px;" class="card-body">
-                <div class="row mt-3">
-                    <div class="col-12">
+            <p class="card-text">{{ question.2 }}</p>
+            <div class="d-flex justify-content-center card-body">
+                <div class="row">
+                    <div  class="col-12">
                         <div class="input-group">
                             {% if question.4 == "sub" %}
                             <div class="input-group-prepend">
-                                    <select style="width: 150px;" id="group_{{question.0}}" name="{{ question.1 }}" onchange="ChangeGroup(this);" class="custom-select">
+                                {% if request.user_agent.is_mobile %}
+                                <select  id="group_{{question.0}}" name="{{ question.1 }}" onchange="ChangeGroup(this);" class="custom-select d-inline-block">
                                     <option>Выберите</option>
                                     {% for answer in question.5 %}
                                         <option value="{{ answer.0 }}">{{ answer.0 }}</option>
                                     {% endfor %}   
                                     </select>    
 
-                                    <select style="width: 150px;" id="ans_group_{{question.0}}" name="sub_{{ question.1 }}" class="custom-select">
+                                    <select  id="ans_group_{{question.0}}" name="sub_{{ question.1 }}" class="custom-select d-inline-block">
                                     {% for answer in question.5 %}
                                             {% for ans in answer.1 %}
                                                 <option id="{{answer.0}}_{{ans}}" value="{{ ans }}" disabled hidden>{{ans}}</option>
@@ -69,6 +70,25 @@
 
                                     {% endfor %}   
                                     </select>  
+                                {% else %}
+                                <select  id="group_{{question.0}}" name="{{ question.1 }}" onchange="ChangeGroup(this);" class="custom-select mr-2">
+                                    <option>Выберите</option>
+                                    {% for answer in question.5 %}
+                                        <option value="{{ answer.0 }}">{{ answer.0 }}</option>
+                                    {% endfor %}   
+                                    </select>    
+
+                                    <select  id="ans_group_{{question.0}}" name="sub_{{ question.1 }}" class="custom-select">
+                                    {% for answer in question.5 %}
+                                            {% for ans in answer.1 %}
+                                                <option id="{{answer.0}}_{{ans}}" value="{{ ans }}" disabled hidden>{{ans}}</option>
+                                            {% endfor %}
+
+                                    {% endfor %}   
+                                    </select>  
+                                {% endif %}
+
+                                    
                             </div>
                                 
                             
