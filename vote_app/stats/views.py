@@ -59,32 +59,35 @@ def login_stats(request):
                     questions_list.append(question)
                 answers.append(answer.answer_value)
 
-        const_jump = int(sqrt(len(answers)))
+        #const_jump = int(sqrt(len(answers)))
+        const_jump = int(len(answers)/len(forms))
         jump = const_jump
         group_answers = []
         tmp = []
         for i, answer in enumerate(answers):
+
             if jump != 0:
                 tmp.append(answer)
                 jump -= 1
             else:
-                jump = int(sqrt(len(answers)))
+                jump = const_jump
                 tmp = []
                 tmp.append(answer)
                 jump -= 1
-            if len(tmp) == const_jump:  group_answers.append(tmp)
+            if len(tmp) == const_jump:
+                group_answers.append(tmp)
+            
 
-    
-        for i, question in enumerate(questions):    
-            flag = True
-            for s in tmp_s_a:
-                print(group_answers[i][0])
-                print(s)
-                if str(group_answers[i][0]) == str(s):
-                    questions[question].append(str(group_answers[i][0]) + " , " + str(s.sub_answer.answer_value))
-                    flag = False
-            if flag:
-                questions[question].append(group_answers[i][0])
+        for group_ans in group_answers:
+            for i, question in enumerate(questions):  
+                #questions[question].append(group_ans[i])  
+                flag = True
+                for s in tmp_s_a:
+                    if str(group_ans[i]) == str(s):
+                        questions[question].append(str(group_ans[i]) + " , " + str(s.sub_answer.answer_value))
+                        flag = False
+                if flag:
+                    questions[question].append(group_ans[i])  
 
 
         questions['id'] = id_list

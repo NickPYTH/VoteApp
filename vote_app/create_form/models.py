@@ -54,7 +54,7 @@ class Form(models.Model):
         return str(self.form_name)
 
 class FormSended(models.Model):
-    form = models.ForeignKey(Form, on_delete = models.CASCADE)
+    form = models.ForeignKey(Form, on_delete = models.DO_NOTHING)
     answers = models.ManyToManyField(Answer)
     report_id = models.CharField(max_length=50)
     
@@ -64,8 +64,8 @@ class FormSended(models.Model):
         verbose_name_plural = "Таблица заполненных форм"
 
 class Comments(models.Model):
-    report_id = models.ForeignKey(FormSended, on_delete=models.CASCADE)
-    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    report_id = models.ForeignKey(FormSended, on_delete=models.DO_NOTHING)
+    question = models.ForeignKey(Question, on_delete=models.DO_NOTHING)
     text = models.TextField()
 
     class Meta:
@@ -77,7 +77,7 @@ class Comments(models.Model):
 
 
 class SubAnswerChosen(models.Model):
-    answer = models.ForeignKey(Answer, on_delete=models.CASCADE)
+    answer = models.ForeignKey(Answer, on_delete=models.DO_NOTHING)
     form = models.ForeignKey(FormSended, on_delete=models.DO_NOTHING)
     sub_answer = models.ForeignKey(SubAnswer, on_delete=models.DO_NOTHING)
 

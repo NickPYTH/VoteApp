@@ -88,7 +88,7 @@ def create_form(request):
                 'vote_exist' : True,
             }
             return render(request, "create_form/create_form.html", context=data)
-
+#-------------------------------------------
         for i, el in enumerate(questions):
             is_def = True
             if type(questions[el]) is dict:
@@ -115,8 +115,9 @@ def create_form(request):
                         tmp = Answer.objects.create(answer_value=ell, answer_id=uniq_ques_key)
                         record.answer_field.add(tmp)
                 form.questions.add(record)
+#-------------------------------------------
 
-        
+#-------------------------------------------       
         question_with_groups = []
         for question_group in groups:
             if question_group[0] not in question_with_groups:
@@ -133,7 +134,7 @@ def create_form(request):
                 s = SubAnswer.objects.create(answer_id=uniq_ques_key, answer_value=sub)
                 s.save()
                 ans.sub_answer.add(s)
-
+#-------------------------------------------
 
         data = {
             'form_name' : form_name,

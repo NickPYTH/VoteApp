@@ -46,7 +46,7 @@ def send_form(request):
             tmp.append(ques.header)
             tmp.append(ques.description)
             tmp.append(len(ques.answer_field.all()))
-            
+            print(ques)
             pairs = []
             if len(ques.answer_field.first().sub_answer.all()) != 0:
                 tmp.append("sub")
