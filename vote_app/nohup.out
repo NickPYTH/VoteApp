@@ -456,3 +456,602 @@ INFO:     5.59.231.232:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /statistics/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "POST /statistics/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /mediafiles/statistic_files/0ebb884093ee4b73b9d494b439ab5a7dea1057b2.xlsx HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /statistics/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     Shutting down
+INFO:     Finished server process [24366]
+INFO:     Started server process [25815]
+INFO:     Waiting for application startup.
+INFO:     ASGI 'lifespan' protocol appears unsupported.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:     5.59.231.232:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/css/changelists.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/core.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/urlify.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/actions.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/css/base.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/css/nav_sidebar.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/nav_sidebar.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/css/changelists.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/core.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/urlify.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/actions.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/css/responsive.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/css/fonts.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /admin_page/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-deletelink.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/css/dashboard.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/css/dashboard.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/2/change/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/change_form.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/css/forms.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/js/calendar.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/css/widgets.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-calendar.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c HTTP/1.0" 301 Moved Permanently
+[[0, 'Вопрос 1', 'Описание первого вопроса ', 11, 'sub', [['Группа 1', ['Дочерний элемент 1', 'Дочерний элемент 2', 'Дочерний элемент 3', 'Дочерний элемент 4']], ['Группа 2', ['Группа 1']], ['Группа 3', ['Группа 3']], ['Группа 4', ['Группа 4']], ['Группа 5', ['Группа 10ыв', 'Группа 10', 'Группа 10']], ['Группа 6', ['Группа 10фв']], ['Группа 7', ['Группа 10ав']], ['Группа 8', ['Группа 10а']], ['Группа 9', ['Группа 10а']], ['Группа 10', ['Группа 10в']], ['Группа 11', ['Группа 10ф']]], [<Answer: Группа 1>, <Answer: Группа 2>, <Answer: Группа 3>, <Answer: Группа 4>, <Answer: Группа 5>, <Answer: Группа 6>, <Answer: Группа 7>, <Answer: Группа 8>, <Answer: Группа 9>, <Answer: Группа 10>, <Answer: Группа 11>]], [1, 'Вопрос 2', 'Описание второго вопроса', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'Вопрос 3', 'Описание третьего вопроса', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Вопрос 4', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     5.59.231.232:0 - "GET /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not Modified
+[[0, 'Вопрос 1', 'Описание первого вопроса ', 11, 'sub', [['Группа 1', ['Дочерний элемент 1', 'Дочерний элемент 2', 'Дочерний элемент 3', 'Дочерний элемент 4']], ['Группа 2', ['Группа 1']], ['Группа 3', ['Группа 3']], ['Группа 4', ['Группа 4']], ['Группа 5', ['Группа 10ыв', 'Группа 10', 'Группа 10']], ['Группа 6', ['Группа 10фв']], ['Группа 7', ['Группа 10ав']], ['Группа 8', ['Группа 10а']], ['Группа 9', ['Группа 10а']], ['Группа 10', ['Группа 10в']], ['Группа 11', ['Группа 10ф']]], [<Answer: Группа 1>, <Answer: Группа 2>, <Answer: Группа 3>, <Answer: Группа 4>, <Answer: Группа 5>, <Answer: Группа 6>, <Answer: Группа 7>, <Answer: Группа 8>, <Answer: Группа 9>, <Answer: Группа 10>, <Answer: Группа 11>]], [1, 'Вопрос 2', 'Описание второго вопроса', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'Вопрос 3', 'Описание третьего вопроса', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Вопрос 4', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     149.154.161.16:0 - "GET /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/ HTTP/1.0" 200 OK
+[[0, 'Вопрос 1', 'Описание первого вопроса ', 11, 'sub', [['Группа 1', ['Дочерний элемент 1', 'Дочерний элемент 2', 'Дочерний элемент 3', 'Дочерний элемент 4']], ['Группа 2', ['Группа 1']], ['Группа 3', ['Группа 3']], ['Группа 4', ['Группа 4']], ['Группа 5', ['Группа 10ыв', 'Группа 10', 'Группа 10']], ['Группа 6', ['Группа 10фв']], ['Группа 7', ['Группа 10ав']], ['Группа 8', ['Группа 10а']], ['Группа 9', ['Группа 10а']], ['Группа 10', ['Группа 10в']], ['Группа 11', ['Группа 10ф']]], [<Answer: Группа 1>, <Answer: Группа 2>, <Answer: Группа 3>, <Answer: Группа 4>, <Answer: Группа 5>, <Answer: Группа 6>, <Answer: Группа 7>, <Answer: Группа 8>, <Answer: Группа 9>, <Answer: Группа 10>, <Answer: Группа 11>]], [1, 'Вопрос 2', 'Описание второго вопроса', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'Вопрос 3', 'Описание третьего вопроса', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Вопрос 4', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     176.59.207.29:0 - "GET /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+[[0, 'Вопрос 1', 'Описание первого вопроса ', 11, 'sub', [['Группа 1', ['Дочерний элемент 1', 'Дочерний элемент 2', 'Дочерний элемент 3', 'Дочерний элемент 4']], ['Группа 2', ['Группа 1']], ['Группа 3', ['Группа 3']], ['Группа 4', ['Группа 4']], ['Группа 5', ['Группа 10ыв', 'Группа 10', 'Группа 10']], ['Группа 6', ['Группа 10фв']], ['Группа 7', ['Группа 10ав']], ['Группа 8', ['Группа 10а']], ['Группа 9', ['Группа 10а']], ['Группа 10', ['Группа 10в']], ['Группа 11', ['Группа 10ф']]], [<Answer: Группа 1>, <Answer: Группа 2>, <Answer: Группа 3>, <Answer: Группа 4>, <Answer: Группа 5>, <Answer: Группа 6>, <Answer: Группа 7>, <Answer: Группа 8>, <Answer: Группа 9>, <Answer: Группа 10>, <Answer: Группа 11>]], [1, 'Вопрос 2', 'Описание второго вопроса', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'Вопрос 3', 'Описание третьего вопроса', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Вопрос 4', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     176.59.207.29:0 - "GET /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+Internal Server Error: /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "./send_form/views.py", line 106, in send_form
+    sub_ans = ans.sub_answer.get(answer_value=request.POST.get("sub_"+str(ques.header), False))
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/query.py", line 436, in get
+    num if not limit or num < limit else 'more than %s' % (limit - 1),
+create_form.models.SubAnswer.MultipleObjectsReturned: get() returned more than one SubAnswer -- it returned 2!
+INFO:     176.59.207.29:0 - "POST /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/ HTTP/1.0" 500 Internal Server Error
+INFO:     176.59.207.29:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+[[0, 'Вопрос 1', 'Описание первого вопроса ', 11, 'sub', [['Группа 1', ['Дочерний элемент 1', 'Дочерний элемент 2', 'Дочерний элемент 3', 'Дочерний элемент 4']], ['Группа 2', ['Группа 1']], ['Группа 3', ['Группа 3']], ['Группа 4', ['Группа 4']], ['Группа 5', ['Группа 10ыв', 'Группа 10', 'Группа 10']], ['Группа 6', ['Группа 10фв']], ['Группа 7', ['Группа 10ав']], ['Группа 8', ['Группа 10а']], ['Группа 9', ['Группа 10а']], ['Группа 10', ['Группа 10в']], ['Группа 11', ['Группа 10ф']]], [<Answer: Группа 1>, <Answer: Группа 2>, <Answer: Группа 3>, <Answer: Группа 4>, <Answer: Группа 5>, <Answer: Группа 6>, <Answer: Группа 7>, <Answer: Группа 8>, <Answer: Группа 9>, <Answer: Группа 10>, <Answer: Группа 11>]], [1, 'Вопрос 2', 'Описание второго вопроса', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'Вопрос 3', 'Описание третьего вопроса', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Вопрос 4', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     5.59.231.232:0 - "GET /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/ HTTP/1.0" 200 OK
+Internal Server Error: /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "./send_form/views.py", line 139, in send_form
+    for el in question_dict.get(Question.objects.get(question_id=j.answer_id).header):
+TypeError: 'NoneType' object is not iterable
+INFO:     5.59.231.232:0 - "POST /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/ HTTP/1.0" 500 Internal Server Error
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+[[0, 'Вопрос 1', 'Описание первого вопроса ', 11, 'sub', [['Группа 1', ['Дочерний элемент 1', 'Дочерний элемент 2', 'Дочерний элемент 3', 'Дочерний элемент 4']], ['Группа 2', ['Группа 1']], ['Группа 3', ['Группа 3']], ['Группа 4', ['Группа 4']], ['Группа 5', ['Группа 10ыв', 'Группа 10', 'Группа 10']], ['Группа 6', ['Группа 10фв']], ['Группа 7', ['Группа 10ав']], ['Группа 8', ['Группа 10а']], ['Группа 9', ['Группа 10а']], ['Группа 10', ['Группа 10в']], ['Группа 11', ['Группа 10ф']]], [<Answer: Группа 1>, <Answer: Группа 2>, <Answer: Группа 3>, <Answer: Группа 4>, <Answer: Группа 5>, <Answer: Группа 6>, <Answer: Группа 7>, <Answer: Группа 8>, <Answer: Группа 9>, <Answer: Группа 10>, <Answer: Группа 11>]], [1, 'Вопрос 2', 'Описание второго вопроса', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'Вопрос 3', 'Описание третьего вопроса', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Вопрос 4', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     5.59.231.232:0 - "GET /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/ HTTP/1.0" 200 OK
+Internal Server Error: /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "./send_form/views.py", line 139, in send_form
+    for el in question_dict.get(Question.objects.get(question_id=j.answer_id).header):
+TypeError: 'NoneType' object is not iterable
+INFO:     5.59.231.232:0 - "POST /62d84b9e07636dd7a551fdc3ed7f8c2722e8d62c/ HTTP/1.0" 500 Internal Server Error
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/cancel.js HTTP/1.0" 304 Not Modified
+Internal Server Error: /admin_page/create_form/form/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/backends/base/base.py", line 242, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1735, in changelist_view
+    response = self.response_action(request, queryset=cl.get_queryset(request))
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1402, in response_action
+    response = func(self, request, queryset)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/actions.py", line 40, in delete_selected
+    modeladmin.delete_queryset(request, queryset)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1103, in delete_queryset
+    queryset.delete()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/query.py", line 747, in delete
+    deleted, _rows_count = collector.delete()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/deletion.py", line 436, in delete
+    sender=model, instance=obj, using=self.using
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/transaction.py", line 232, in __exit__
+    connection.commit()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/backends/base/base.py", line 266, in commit
+    self._commit()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/backends/base/base.py", line 242, in _commit
+    return self.connection.commit()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/backends/base/base.py", line 242, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/form/ HTTP/1.0" 500 Internal Server Error
+INFO:     5.59.231.232:0 - "POST /statistics/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/demo-3.png HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/demo-4.png HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /create_form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/qrcode.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4 HTTP/1.0" 301 Moved Permanently
+[[0, 'аыывавы', 'fdsfsd', 11, 'sub', [['dfsdfs', ['dsfsdf', 'dsfsd', 'dfssdf', 'fsdf']], ['fdsfsf', ['dsfsfdf']], ['ddf', ['f']], ['fsd', ['f']], ['fds', ['sdf']], ['dsfsd', ['f']], ['dsf', ['fds']], ['dsf', ['sd']], ['fsd', ['fsd']], ['dfsfds', ['fsdfs']], ['fsdf', ['sfdsf']]], [<Answer: dfsdfs>, <Answer: fdsfsf>, <Answer: ddf>, <Answer: fsd>, <Answer: fds>, <Answer: dsfsd>, <Answer: dsf>, <Answer: dsf>, <Answer: fsd>, <Answer: dfsfds>, <Answer: fsdf>]], [1, 'dfsdf', 'dsf', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'dfsf', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [3, 'dsfs', 'Выберите вариант ответа', 2, 'other', [<Answer: dsf>, <Answer: fsdf>]], [4, 'dfsfsd', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     5.59.231.232:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "POST /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+[[0, 'аыывавы', 'fdsfsd', 11, 'sub', [['dfsdfs', ['dsfsdf', 'dsfsd', 'dfssdf', 'fsdf']], ['fdsfsf', ['dsfsfdf']], ['ddf', ['f']], ['fsd', ['f']], ['fds', ['sdf']], ['dsfsd', ['f']], ['dsf', ['fds']], ['dsf', ['sd']], ['fsd', ['fsd']], ['dfsfds', ['fsdfs']], ['fsdf', ['sfdsf']]], [<Answer: dfsdfs>, <Answer: fdsfsf>, <Answer: ddf>, <Answer: fsd>, <Answer: fds>, <Answer: dsfsd>, <Answer: dsf>, <Answer: dsf>, <Answer: fsd>, <Answer: dfsfds>, <Answer: fsdf>]], [1, 'dfsdf', 'dsf', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'dfsf', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [3, 'dsfs', 'Выберите вариант ответа', 2, 'other', [<Answer: dsf>, <Answer: fsdf>]], [4, 'dfsfsd', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     5.59.231.232:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /statistics/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /statistics/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/demo-4.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/demo-3.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /admin_page/ HTTP/1.0" 302 Found
+INFO:     176.59.207.29:0 - "GET /admin_page/login/?next=/admin_page/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/admin/css/login.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/css/base.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/css/responsive.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/css/nav_sidebar.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/nav_sidebar.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/css/fonts.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/nav_sidebar.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "POST /admin_page/login/?next=/admin_page/ HTTP/1.0" 302 Found
+INFO:     176.59.207.29:0 - "GET /admin_page/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/admin/js/nav_sidebar.js HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/admin/css/dashboard.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/admin/css/changelists.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/core.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/actions.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/urlify.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/core.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/admin/js/core.js HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /admin_page/create_form/form/1/change/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/calendar.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/css/forms.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/css/widgets.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/js/change_form.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/admin/img/icon-calendar.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4 HTTP/1.0" 301 Moved Permanently
+[[0, 'аыывавы', 'fdsfsd', 11, 'sub', [['dfsdfs', ['dsfsdf', 'dsfsd', 'dfssdf', 'fsdf']], ['fdsfsf', ['dsfsfdf']], ['ddf', ['f']], ['fsd', ['f']], ['fds', ['sdf']], ['dsfsd', ['f']], ['dsf', ['fds']], ['dsf', ['sd']], ['fsd', ['fsd']], ['dfsfds', ['fsdfs']], ['fsdf', ['sfdsf']]], [<Answer: dfsdfs>, <Answer: fdsfsf>, <Answer: ddf>, <Answer: fsd>, <Answer: fds>, <Answer: dsfsd>, <Answer: dsf>, <Answer: dsf>, <Answer: fsd>, <Answer: dfsfds>, <Answer: fsdf>]], [1, 'dfsdf', 'dsf', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'dfsf', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [3, 'dsfs', 'Выберите вариант ответа', 2, 'other', [<Answer: dsf>, <Answer: fsdf>]], [4, 'dfsfsd', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     176.59.207.29:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "POST /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /statistics/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "POST /statistics/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /mediafiles/statistic_files/0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4.xlsx HTTP/1.0" 200 OK
+[[0, 'аыывавы', 'fdsfsd', 11, 'sub', [['dfsdfs', ['dsfsdf', 'dsfsd', 'dfssdf', 'fsdf']], ['fdsfsf', ['dsfsfdf']], ['ddf', ['f']], ['fsd', ['f']], ['fds', ['sdf']], ['dsfsd', ['f']], ['dsf', ['fds']], ['dsf', ['sd']], ['fsd', ['fsd']], ['dfsfds', ['fsdfs']], ['fsdf', ['sfdsf']]], [<Answer: dfsdfs>, <Answer: fdsfsf>, <Answer: ddf>, <Answer: fsd>, <Answer: fds>, <Answer: dsfsd>, <Answer: dsf>, <Answer: dsf>, <Answer: fsd>, <Answer: dfsfds>, <Answer: fsdf>]], [1, 'dfsdf', 'dsf', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'dfsf', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [3, 'dsfs', 'Выберите вариант ответа', 2, 'other', [<Answer: dsf>, <Answer: fsdf>]], [4, 'dfsfsd', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     176.59.207.29:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4 HTTP/1.0" 301 Moved Permanently
+[[0, 'аыывавы', 'fdsfsd', 11, 'sub', [['dfsdfs', ['dsfsdf', 'dsfsd', 'dfssdf', 'fsdf']], ['fdsfsf', ['dsfsfdf']], ['ddf', ['f']], ['fsd', ['f']], ['fds', ['sdf']], ['dsfsd', ['f']], ['dsf', ['fds']], ['dsf', ['sd']], ['fsd', ['fsd']], ['dfsfds', ['fsdfs']], ['fsdf', ['sfdsf']]], [<Answer: dfsdfs>, <Answer: fdsfsf>, <Answer: ddf>, <Answer: fsd>, <Answer: fds>, <Answer: dsfsd>, <Answer: dsf>, <Answer: dsf>, <Answer: fsd>, <Answer: dfsfds>, <Answer: fsdf>]], [1, 'dfsdf', 'dsf', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'dfsf', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [3, 'dsfs', 'Выберите вариант ответа', 2, 'other', [<Answer: dsf>, <Answer: fsdf>]], [4, 'dfsfsd', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     176.59.207.29:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+Internal Server Error: /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "./send_form/views.py", line 102, in send_form
+    ans = Answer.objects.get(answer_id = ques.question_id, answer_value = request.POST.get(ques.header))
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/query.py", line 431, in get
+    self.model._meta.object_name
+create_form.models.Answer.DoesNotExist: Answer matching query does not exist.
+INFO:     176.59.207.29:0 - "POST /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 500 Internal Server Error
+INFO:     176.59.207.29:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+Internal Server Error: /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "./send_form/views.py", line 102, in send_form
+    ans = Answer.objects.get(answer_id = ques.question_id, answer_value = request.POST.get(ques.header))
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/query.py", line 431, in get
+    self.model._meta.object_name
+create_form.models.Answer.DoesNotExist: Answer matching query does not exist.
+INFO:     176.59.207.29:0 - "POST /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 500 Internal Server Error
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+[[0, 'аыывавы', 'fdsfsd', 11, 'sub', [['dfsdfs', ['dsfsdf', 'dsfsd', 'dfssdf', 'fsdf']], ['fdsfsf', ['dsfsfdf']], ['ddf', ['f']], ['fsd', ['f']], ['fds', ['sdf']], ['dsfsd', ['f']], ['dsf', ['fds']], ['dsf', ['sd']], ['fsd', ['fsd']], ['dfsfds', ['fsdfs']], ['fsdf', ['sfdsf']]], [<Answer: dfsdfs>, <Answer: fdsfsf>, <Answer: ddf>, <Answer: fsd>, <Answer: fds>, <Answer: dsfsd>, <Answer: dsf>, <Answer: dsf>, <Answer: fsd>, <Answer: dfsfds>, <Answer: fsdf>]], [1, 'dfsdf', 'dsf', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'dfsf', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [3, 'dsfs', 'Выберите вариант ответа', 2, 'other', [<Answer: dsf>, <Answer: fsdf>]], [4, 'dfsfsd', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     176.59.207.29:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+Internal Server Error: /statistics/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "./stats/views.py", line 86, in login_stats
+    if str(group_ans[i]) == str(s):
+IndexError: list index out of range
+INFO:     176.59.207.29:0 - "POST /statistics/ HTTP/1.0" 500 Internal Server Error
+INFO:     176.59.207.29:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/demo-4.png HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /statistics/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/ HTTP/1.0" 302 Found
+INFO:     5.59.231.232:0 - "GET /admin_page/login/?next=/admin_page/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/css/base.css HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/css/nav_sidebar.css HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/css/login.css HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/css/responsive.css HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/css/fonts.css HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/nav_sidebar.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/login/?next=/admin_page/ HTTP/1.0" 302 Found
+INFO:     5.59.231.232:0 - "GET /admin_page/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/css/dashboard.css HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/css/changelists.css HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/jquery.init.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/core.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/actions.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/urlify.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/prepopulate.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/js/cancel.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+Internal Server Error: /admin_page/create_form/form/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/backends/base/base.py", line 242, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1735, in changelist_view
+    response = self.response_action(request, queryset=cl.get_queryset(request))
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1402, in response_action
+    response = func(self, request, queryset)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/actions.py", line 40, in delete_selected
+    modeladmin.delete_queryset(request, queryset)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1103, in delete_queryset
+    queryset.delete()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/query.py", line 747, in delete
+    deleted, _rows_count = collector.delete()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/deletion.py", line 436, in delete
+    sender=model, instance=obj, using=self.using
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/transaction.py", line 232, in __exit__
+    connection.commit()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/backends/base/base.py", line 266, in commit
+    self._commit()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/backends/base/base.py", line 242, in _commit
+    return self.connection.commit()
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/backends/base/base.py", line 242, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/form/ HTTP/1.0" 500 Internal Server Error
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/subanswerchosen/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/subanswerchosen/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/subanswerchosen/ HTTP/1.0" 302 Found
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/subanswerchosen/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-yes.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/subanswer/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/subanswer/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/subanswer/ HTTP/1.0" 302 Found
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/subanswer/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/question/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/answer/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/answer/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/answer/ HTTP/1.0" 302 Found
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/answer/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/comments/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/formsended/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/formsended/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/formsended/ HTTP/1.0" 302 Found
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/formsended/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/question/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/question/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/question/ HTTP/1.0" 302 Found
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/question/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/subanswer/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/answer/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/comments/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /admin_page/create_form/form/ HTTP/1.0" 302 Found
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
