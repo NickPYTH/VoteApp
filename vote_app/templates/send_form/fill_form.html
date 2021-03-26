@@ -90,7 +90,8 @@
                     </div>
                 </div>
             </div>
-            {% if question.0 in  ques_comms %}
+
+            {% if question.1 in  ques_comms %}
             <div class="form-group mb-3 ml-5 mr-5">
                 <label for="exampleFormControlTextarea1">Ваш комментарий</label>
                     <textarea name="{{ question.0 }}_comment" class="form-control" rows="3"></textarea>
