@@ -63,7 +63,7 @@ def send_form(request):
             ques_ans.append(tmp)
             if ques.has_comment:
                 ques_comms.append(ques.header)
-        print(ques_ans)
+        
         try:
             if int(query.end_date.month) < 10:
                 month = '0' + str(query.end_date.month)
@@ -92,7 +92,7 @@ def send_form(request):
             if not check_date(form.end_date):
                 return render(request, "send_form/date_is_over.html")
 
-
+            
             questions_query = form.questions.all()
             ans_list = []
             sended_form = FormSended.objects.create(form=Form.objects.get(form_name=form_name), report_id=random.randint(1,1000000))

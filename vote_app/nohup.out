@@ -1055,3 +1055,318 @@ INFO:     5.59.231.232:0 - "POST /admin_page/create_form/form/ HTTP/1.0" 302 Fou
 INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /statistics/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     5.59.231.232:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /create_form/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/qrcode.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4 HTTP/1.0" 301 Moved Permanently
+[[0, 'ques1', '', 4, 'sub', [['qweqwe', ['1', '2', '3']], ['rerwer', ['erwer', 'werwer', 'rwer', 'rewrw']], ['werewrwer', ['werwer', 'werwerw']], ['werwer', ['wrwerwe']]], [<Answer: qweqwe>, <Answer: rerwer>, <Answer: werewrwer>, <Answer: werwer>]], [1, 'erwerwerwer', 'ewrwer', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'rwerewr', 'wer', 2, 'other', [<Answer: rwer>, <Answer: rwerwe>]]]
+INFO:     5.59.231.232:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /statistics/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "POST /statistics/ HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/demo-3.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/demo-4.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "POST /create_form/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/js/qrcode.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /5116c28e651a19013822c09e5c70c9fc425a66dc HTTP/1.0" 301 Moved Permanently
+[[0, 'fgfgfd', '', 2, 'sub', [['fsdf', ['dsfds', 'dsfdsf', 'dsfds']], ['dsfsd', ['dsfsdf', 'dxfs']]], [<Answer: fsdf>, <Answer: dsfsd>]]]
+INFO:     176.59.201.110:0 - "GET /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not Modified
+[[0, 'fgfgfd', '', 2, 'sub', [['fsdf', ['dsfds', 'dsfdsf', 'dsfds']], ['dsfsd', ['dsfsdf', 'dxfs']]], [<Answer: fsdf>, <Answer: dsfsd>]]]
+INFO:     176.59.201.110:0 - "GET /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+Internal Server Error: /5116c28e651a19013822c09e5c70c9fc425a66dc/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "./send_form/views.py", line 106, in send_form
+    sub_ans = ans.sub_answer.get(answer_value=request.POST.get("sub_"+str(ques.header), False))
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/query.py", line 436, in get
+    num if not limit or num < limit else 'more than %s' % (limit - 1),
+create_form.models.SubAnswer.MultipleObjectsReturned: get() returned more than one SubAnswer -- it returned 2!
+INFO:     176.59.201.110:0 - "POST /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 500 Internal Server Error
+INFO:     176.59.201.110:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     176.59.201.110:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "POST /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/demo-3.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/images/demo-4.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /statistics/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "POST /statistics/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /statistics/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /admin_page/ HTTP/1.0" 302 Found
+INFO:     176.59.201.110:0 - "GET /admin_page/login/?next=/admin_page/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/css/nav_sidebar.css HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/css/base.css HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/css/login.css HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/css/responsive.css HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/nav_sidebar.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/css/fonts.css HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/nav_sidebar.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "POST /admin_page/login/?next=/admin_page/ HTTP/1.0" 302 Found
+INFO:     176.59.201.110:0 - "GET /admin_page/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/css/dashboard.css HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/nav_sidebar.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/img/icon-deletelink.svg HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/css/changelists.css HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/jquery.init.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/core.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/actions.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/urlify.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/prepopulate.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
+[[0, 'fgfgfd', '', 2, 'sub', [['fsdf', ['dsfds', 'dsfdsf', 'dsfds']], ['dsfsd', ['dsfsdf', 'dxfs']]], [<Answer: fsdf>, <Answer: dsfsd>]]]
+INFO:     176.59.201.110:0 - "GET /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "POST /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "POST /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "POST /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 200 OK
+Forbidden (CSRF cookie not set.): /5116c28e651a19013822c09e5c70c9fc425a66dc/
+INFO:     176.59.201.110:0 - "POST /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 403 Forbidden
+INFO:     176.59.201.110:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+Forbidden (CSRF cookie not set.): /5116c28e651a19013822c09e5c70c9fc425a66dc/
+INFO:     176.59.201.110:0 - "POST /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 403 Forbidden
+[[0, 'fgfgfd', '', 2, 'sub', [['fsdf', ['dsfds', 'dsfdsf', 'dsfds']], ['dsfsd', ['dsfsdf', 'dxfs']]], [<Answer: fsdf>, <Answer: dsfsd>]]]
+INFO:     176.59.201.110:0 - "GET /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 302 Found
+INFO:     176.59.201.110:0 - "GET /admin_page/login/?next=/admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/css/base.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/js/nav_sidebar.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/css/nav_sidebar.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/css/fonts.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/css/login.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/css/responsive.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 302 Found
+INFO:     176.59.201.110:0 - "GET /admin_page/login/?next=/admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /admin_page/ HTTP/1.0" 302 Found
+INFO:     176.59.201.110:0 - "GET /admin_page/login/?next=/admin_page/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/css/dashboard.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/img/icon-deletelink.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "POST /admin_page/login/?next=/admin_page/ HTTP/1.0" 302 Found
+INFO:     176.59.201.110:0 - "GET /admin_page/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/js/core.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/css/changelists.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/js/actions.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/js/urlify.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/admin/js/actions.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     83.169.216.20:0 - "GET /3c9738a4145a96082d03369a9ef9bb1009f6976b HTTP/1.0" 301 Moved Permanently
+INFO:     83.169.216.20:0 - "GET /3c9738a4145a96082d03369a9ef9bb1009f6976b/ HTTP/1.0" 200 OK
+INFO:     83.169.216.20:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     83.169.216.20:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     83.169.216.20:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     83.169.216.20:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     83.169.216.20:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
+INFO:     83.169.216.20:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     176.59.197.208:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.197.208:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/images/demo-3.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/images/demo-4.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     176.59.197.208:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.197.208:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/demo-3.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/demo-4.png HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
+INFO:     95.47.79.252:0 - "GET /3c9738a4145a96082d03369a9ef9bb1009f6976b/ HTTP/1.0" 200 OK
+INFO:     95.47.79.252:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     95.47.79.252:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     95.47.79.252:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
+INFO:     95.47.79.252:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
+INFO:     95.47.79.252:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
+INFO:     95.47.79.252:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not Modified
+Internal Server Error: /3c9738a4145a96082d03369a9ef9bb1009f6976b/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "./send_form/views.py", line 164, in send_form
+    form = Form.objects.get(form_name=form_name)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/query.py", line 431, in get
+    self.model._meta.object_name
+create_form.models.Form.DoesNotExist: Form matching query does not exist.
+INFO:     213.87.242.34:0 - "POST /3c9738a4145a96082d03369a9ef9bb1009f6976b/ HTTP/1.0" 500 Internal Server Error
+INFO:     213.87.242.34:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     213.87.242.34:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     213.87.242.34:0 - "GET /3c9738a4145a96082d03369a9ef9bb1009f6976b/ HTTP/1.0" 200 OK
+INFO:     213.87.242.34:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     213.87.242.34:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     213.87.242.34:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
+INFO:     213.87.242.34:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
+INFO:     213.87.242.34:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
+INFO:     213.87.242.34:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not Modified
+INFO:     217.151.131.56:0 - "GET / HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/demo-4.png HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "POST /create_form/ HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/js/qrcode.js HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /1e8bea49920712a193ded826680dff76abfe76eb HTTP/1.0" 301 Moved Permanently
+[[0, 'Выберите Филиал и объект питания', '', 21, 'sub', [['УТТиСТ', ['Столовая №3 НАТС', 'Столовая №5 САТЦ', 'Столовая №16 ТАТЦ']], ['Сургутское ЛПУМГ', ['Столовая №11 КС-3', 'Столовая №12 Кс-4']], ['Ортьягунское ЛПУМГ', ['Столовая №10 КС-2', 'Столовая №15']], ['Южно-Балыкское ЛПУМГ', ['Столовая №13 КС-5']], ['Самсоновское ЛПУМГ', ['Столовая №14 КС-6']], ['Демъянское ЛПУМГ', ['Столовая №4 КС-7']], ['Туртасское ЛПУМГ', ['Столовая №3 КС-8']], ['Тобольское ЛПУМГ', ['Столовая №2 КС-9']], ['Ярковское ЛПУМГ', ['Столовая №5 КС-10']], ['Богандинское ЛПУМГ', ['Столовая №6 КС-11']], ['Ишимское ЛПУМГ', ['Столовая №1']], ['Ново-Уренгойское ЛПУМГ', ['Столовая КС-Заполярная']], ['Пурпейское ЛПУМГ', ['Столовая №9 КС-01']], ['Губкинское ЛПУМГ', ['Столовая №6']], ['Вынгапуровское ЛПУМГ', ['Столовая №8 КС-1']], ['УЭЗС', ['Столовая №4']], ['УПЦ', ['Столовая №8']], ['ИТЦ/УАВР', ['Буфет']], ['УСС Факел/МСЧ', ['Столовая №25']], ['Администрация', ['Столовая №21']], ['УМТСиК', ['Столовая №6']]], [<Answer: УТТиСТ>, <Answer: Сургутское ЛПУМГ>, <Answer: Ортьягунское ЛПУМГ>, <Answer: Южно-Балыкское ЛПУМГ>, <Answer: Самсоновское ЛПУМГ>, <Answer: Демъянское ЛПУМГ>, <Answer: Туртасское ЛПУМГ>, <Answer: Тобольское ЛПУМГ>, <Answer: Ярковское ЛПУМГ>, <Answer: Богандинское ЛПУМГ>, <Answer: Ишимское ЛПУМГ>, <Answer: Ново-Уренгойское ЛПУМГ>, <Answer: Пурпейское ЛПУМГ>, <Answer: Губкинское ЛПУМГ>, <Answer: Вынгапуровское ЛПУМГ>, <Answer: УЭЗС>, <Answer: УПЦ>, <Answer: ИТЦ/УАВР>, <Answer: УСС Факел/МСЧ>, <Answer: Администрация>, <Answer: УМТСиК>]], [1, 'Имеете ли Вы доступ (возможность посещения в связи со спецификой Вашей работы) к объектам питания Вашей организации', '', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [2, 'Посещаете ли Вы объект питания в целях получения услуг', 'Выберите вариант ответа', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Устраивает ли Вас меню комплексного обеда (150 рублей)', 'Выберите вариант ответа', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [4, 'Устраивает ли Вас уровень подготовки обслуживающего персонала оператора питания (создание атмосферы гостеприимства, внимательность, вежливость, тактичность, опрятность и пр.)', '', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [5, 'Соответствует ли качество услуг Вашим запросам и ожиданиям (вкусовые качества пищи и внешнее оформление блюд, обеспечение безопасности услуг питания и удовлетворение определенных потребностей).', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [6, 'Достаточно ли для Вас наличие блюд и напитков на завтрак, обед и ужин, имеется ли их наличие в достаточном количестве в течение всего времени работы (разнообразие закусок, блюд как по видам сырья (рыбные, овощные, мясные), так и по способам кулинарной обработки (отварные, жареные, тушеные и пр.) и устраивает ли Вас выход предлагаемых блюд.', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [7, 'Соответствует ли уровень цен в меню на блюда и напитки Вашим ожиданиям', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     217.151.131.56:0 - "GET /1e8bea49920712a193ded826680dff76abfe76eb/ HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     213.87.242.34:0 - "GET /1e8bea49920712a193ded826680dff76abfe76eb HTTP/1.0" 301 Moved Permanently
+[[0, 'Выберите Филиал и объект питания', '', 21, 'sub', [['УТТиСТ', ['Столовая №3 НАТС', 'Столовая №5 САТЦ', 'Столовая №16 ТАТЦ']], ['Сургутское ЛПУМГ', ['Столовая №11 КС-3', 'Столовая №12 Кс-4']], ['Ортьягунское ЛПУМГ', ['Столовая №10 КС-2', 'Столовая №15']], ['Южно-Балыкское ЛПУМГ', ['Столовая №13 КС-5']], ['Самсоновское ЛПУМГ', ['Столовая №14 КС-6']], ['Демъянское ЛПУМГ', ['Столовая №4 КС-7']], ['Туртасское ЛПУМГ', ['Столовая №3 КС-8']], ['Тобольское ЛПУМГ', ['Столовая №2 КС-9']], ['Ярковское ЛПУМГ', ['Столовая №5 КС-10']], ['Богандинское ЛПУМГ', ['Столовая №6 КС-11']], ['Ишимское ЛПУМГ', ['Столовая №1']], ['Ново-Уренгойское ЛПУМГ', ['Столовая КС-Заполярная']], ['Пурпейское ЛПУМГ', ['Столовая №9 КС-01']], ['Губкинское ЛПУМГ', ['Столовая №6']], ['Вынгапуровское ЛПУМГ', ['Столовая №8 КС-1']], ['УЭЗС', ['Столовая №4']], ['УПЦ', ['Столовая №8']], ['ИТЦ/УАВР', ['Буфет']], ['УСС Факел/МСЧ', ['Столовая №25']], ['Администрация', ['Столовая №21']], ['УМТСиК', ['Столовая №6']]], [<Answer: УТТиСТ>, <Answer: Сургутское ЛПУМГ>, <Answer: Ортьягунское ЛПУМГ>, <Answer: Южно-Балыкское ЛПУМГ>, <Answer: Самсоновское ЛПУМГ>, <Answer: Демъянское ЛПУМГ>, <Answer: Туртасское ЛПУМГ>, <Answer: Тобольское ЛПУМГ>, <Answer: Ярковское ЛПУМГ>, <Answer: Богандинское ЛПУМГ>, <Answer: Ишимское ЛПУМГ>, <Answer: Ново-Уренгойское ЛПУМГ>, <Answer: Пурпейское ЛПУМГ>, <Answer: Губкинское ЛПУМГ>, <Answer: Вынгапуровское ЛПУМГ>, <Answer: УЭЗС>, <Answer: УПЦ>, <Answer: ИТЦ/УАВР>, <Answer: УСС Факел/МСЧ>, <Answer: Администрация>, <Answer: УМТСиК>]], [1, 'Имеете ли Вы доступ (возможность посещения в связи со спецификой Вашей работы) к объектам питания Вашей организации', '', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [2, 'Посещаете ли Вы объект питания в целях получения услуг', 'Выберите вариант ответа', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Устраивает ли Вас меню комплексного обеда (150 рублей)', 'Выберите вариант ответа', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [4, 'Устраивает ли Вас уровень подготовки обслуживающего персонала оператора питания (создание атмосферы гостеприимства, внимательность, вежливость, тактичность, опрятность и пр.)', '', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [5, 'Соответствует ли качество услуг Вашим запросам и ожиданиям (вкусовые качества пищи и внешнее оформление блюд, обеспечение безопасности услуг питания и удовлетворение определенных потребностей).', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [6, 'Достаточно ли для Вас наличие блюд и напитков на завтрак, обед и ужин, имеется ли их наличие в достаточном количестве в течение всего времени работы (разнообразие закусок, блюд как по видам сырья (рыбные, овощные, мясные), так и по способам кулинарной обработки (отварные, жареные, тушеные и пр.) и устраивает ли Вас выход предлагаемых блюд.', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [7, 'Соответствует ли уровень цен в меню на блюда и напитки Вашим ожиданиям', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     213.87.242.34:0 - "GET /1e8bea49920712a193ded826680dff76abfe76eb/ HTTP/1.0" 200 OK
+INFO:     213.87.242.34:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+INFO:     213.87.242.34:0 - "POST /1e8bea49920712a193ded826680dff76abfe76eb/ HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET / HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET / HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/images/demo-4.png HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "POST /create_form/ HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/js/qrcode.js HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /441f2784fb4068ed18896b63bae7ad682a88208b HTTP/1.0" 301 Moved Permanently
+[[0, 'ghgfh', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     46.250.74.214:0 - "GET /441f2784fb4068ed18896b63bae7ad682a88208b/ HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+[[0, 'Выберите Филиал и объект питания', '', 21, 'sub', [['УТТиСТ', ['Столовая №3 НАТС', 'Столовая №5 САТЦ', 'Столовая №16 ТАТЦ']], ['Сургутское ЛПУМГ', ['Столовая №11 КС-3', 'Столовая №12 Кс-4']], ['Ортьягунское ЛПУМГ', ['Столовая №10 КС-2', 'Столовая №15']], ['Южно-Балыкское ЛПУМГ', ['Столовая №13 КС-5']], ['Самсоновское ЛПУМГ', ['Столовая №14 КС-6']], ['Демъянское ЛПУМГ', ['Столовая №4 КС-7']], ['Туртасское ЛПУМГ', ['Столовая №3 КС-8']], ['Тобольское ЛПУМГ', ['Столовая №2 КС-9']], ['Ярковское ЛПУМГ', ['Столовая №5 КС-10']], ['Богандинское ЛПУМГ', ['Столовая №6 КС-11']], ['Ишимское ЛПУМГ', ['Столовая №1']], ['Ново-Уренгойское ЛПУМГ', ['Столовая КС-Заполярная']], ['Пурпейское ЛПУМГ', ['Столовая №9 КС-01']], ['Губкинское ЛПУМГ', ['Столовая №6']], ['Вынгапуровское ЛПУМГ', ['Столовая №8 КС-1']], ['УЭЗС', ['Столовая №4']], ['УПЦ', ['Столовая №8']], ['ИТЦ/УАВР', ['Буфет']], ['УСС Факел/МСЧ', ['Столовая №25']], ['Администрация', ['Столовая №21']], ['УМТСиК', ['Столовая №6']]], [<Answer: УТТиСТ>, <Answer: Сургутское ЛПУМГ>, <Answer: Ортьягунское ЛПУМГ>, <Answer: Южно-Балыкское ЛПУМГ>, <Answer: Самсоновское ЛПУМГ>, <Answer: Демъянское ЛПУМГ>, <Answer: Туртасское ЛПУМГ>, <Answer: Тобольское ЛПУМГ>, <Answer: Ярковское ЛПУМГ>, <Answer: Богандинское ЛПУМГ>, <Answer: Ишимское ЛПУМГ>, <Answer: Ново-Уренгойское ЛПУМГ>, <Answer: Пурпейское ЛПУМГ>, <Answer: Губкинское ЛПУМГ>, <Answer: Вынгапуровское ЛПУМГ>, <Answer: УЭЗС>, <Answer: УПЦ>, <Answer: ИТЦ/УАВР>, <Answer: УСС Факел/МСЧ>, <Answer: Администрация>, <Answer: УМТСиК>]], [1, 'Имеете ли Вы доступ (возможность посещения в связи со спецификой Вашей работы) к объектам питания Вашей организации', '', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [2, 'Посещаете ли Вы объект питания в целях получения услуг', 'Выберите вариант ответа', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Устраивает ли Вас меню комплексного обеда (150 рублей)', 'Выберите вариант ответа', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [4, 'Устраивает ли Вас уровень подготовки обслуживающего персонала оператора питания (создание атмосферы гостеприимства, внимательность, вежливость, тактичность, опрятность и пр.)', '', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [5, 'Соответствует ли качество услуг Вашим запросам и ожиданиям (вкусовые качества пищи и внешнее оформление блюд, обеспечение безопасности услуг питания и удовлетворение определенных потребностей).', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [6, 'Достаточно ли для Вас наличие блюд и напитков на завтрак, обед и ужин, имеется ли их наличие в достаточном количестве в течение всего времени работы (разнообразие закусок, блюд как по видам сырья (рыбные, овощные, мясные), так и по способам кулинарной обработки (отварные, жареные, тушеные и пр.) и устраивает ли Вас выход предлагаемых блюд.', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [7, 'Соответствует ли уровень цен в меню на блюда и напитки Вашим ожиданиям', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     217.151.131.56:0 - "GET /1e8bea49920712a193ded826680dff76abfe76eb/ HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "POST /1e8bea49920712a193ded826680dff76abfe76eb/ HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     217.151.131.56:0 - "GET /1e8bea49920712a193ded826680dff76abfe76eb HTTP/1.0" 301 Moved Permanently
+[[0, 'Выберите Филиал и объект питания', '', 21, 'sub', [['УТТиСТ', ['Столовая №3 НАТС', 'Столовая №5 САТЦ', 'Столовая №16 ТАТЦ']], ['Сургутское ЛПУМГ', ['Столовая №11 КС-3', 'Столовая №12 Кс-4']], ['Ортьягунское ЛПУМГ', ['Столовая №10 КС-2', 'Столовая №15']], ['Южно-Балыкское ЛПУМГ', ['Столовая №13 КС-5']], ['Самсоновское ЛПУМГ', ['Столовая №14 КС-6']], ['Демъянское ЛПУМГ', ['Столовая №4 КС-7']], ['Туртасское ЛПУМГ', ['Столовая №3 КС-8']], ['Тобольское ЛПУМГ', ['Столовая №2 КС-9']], ['Ярковское ЛПУМГ', ['Столовая №5 КС-10']], ['Богандинское ЛПУМГ', ['Столовая №6 КС-11']], ['Ишимское ЛПУМГ', ['Столовая №1']], ['Ново-Уренгойское ЛПУМГ', ['Столовая КС-Заполярная']], ['Пурпейское ЛПУМГ', ['Столовая №9 КС-01']], ['Губкинское ЛПУМГ', ['Столовая №6']], ['Вынгапуровское ЛПУМГ', ['Столовая №8 КС-1']], ['УЭЗС', ['Столовая №4']], ['УПЦ', ['Столовая №8']], ['ИТЦ/УАВР', ['Буфет']], ['УСС Факел/МСЧ', ['Столовая №25']], ['Администрация', ['Столовая №21']], ['УМТСиК', ['Столовая №6']]], [<Answer: УТТиСТ>, <Answer: Сургутское ЛПУМГ>, <Answer: Ортьягунское ЛПУМГ>, <Answer: Южно-Балыкское ЛПУМГ>, <Answer: Самсоновское ЛПУМГ>, <Answer: Демъянское ЛПУМГ>, <Answer: Туртасское ЛПУМГ>, <Answer: Тобольское ЛПУМГ>, <Answer: Ярковское ЛПУМГ>, <Answer: Богандинское ЛПУМГ>, <Answer: Ишимское ЛПУМГ>, <Answer: Ново-Уренгойское ЛПУМГ>, <Answer: Пурпейское ЛПУМГ>, <Answer: Губкинское ЛПУМГ>, <Answer: Вынгапуровское ЛПУМГ>, <Answer: УЭЗС>, <Answer: УПЦ>, <Answer: ИТЦ/УАВР>, <Answer: УСС Факел/МСЧ>, <Answer: Администрация>, <Answer: УМТСиК>]], [1, 'Имеете ли Вы доступ (возможность посещения в связи со спецификой Вашей работы) к объектам питания Вашей организации', '', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [2, 'Посещаете ли Вы объект питания в целях получения услуг', 'Выберите вариант ответа', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [3, 'Устраивает ли Вас меню комплексного обеда (150 рублей)', 'Выберите вариант ответа', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [4, 'Устраивает ли Вас уровень подготовки обслуживающего персонала оператора питания (создание атмосферы гостеприимства, внимательность, вежливость, тактичность, опрятность и пр.)', '', 2, 'other', [<Answer: Да>, <Answer: Нет>]], [5, 'Соответствует ли качество услуг Вашим запросам и ожиданиям (вкусовые качества пищи и внешнее оформление блюд, обеспечение безопасности услуг питания и удовлетворение определенных потребностей).', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [6, 'Достаточно ли для Вас наличие блюд и напитков на завтрак, обед и ужин, имеется ли их наличие в достаточном количестве в течение всего времени работы (разнообразие закусок, блюд как по видам сырья (рыбные, овощные, мясные), так и по способам кулинарной обработки (отварные, жареные, тушеные и пр.) и устраивает ли Вас выход предлагаемых блюд.', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [7, 'Соответствует ли уровень цен в меню на блюда и напитки Вашим ожиданиям', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
+INFO:     217.151.131.56:0 - "GET /1e8bea49920712a193ded826680dff76abfe76eb/ HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
+INFO:     217.151.131.56:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
+INFO:     217.151.131.56:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+INFO:     217.151.131.56:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
+INFO:     217.151.131.56:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
+INFO:     217.151.131.56:0 - "POST /1e8bea49920712a193ded826680dff76abfe76eb/ HTTP/1.0" 200 OK
