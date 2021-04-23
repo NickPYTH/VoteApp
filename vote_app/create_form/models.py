@@ -24,8 +24,8 @@ class Answer(models.Model):
 
 class Question(models.Model):
     question_id = models.CharField(max_length=50)
-    header = models.CharField(max_length=50)
-    description = models.TextField()
+    header = models.TextField()
+    description = models.TextField(blank=True)
     answer_field = models.ManyToManyField(Answer)
     has_comment = models.BooleanField()
     

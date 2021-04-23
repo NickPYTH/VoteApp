@@ -97,7 +97,7 @@ def send_form(request):
             ans_list = []
             sended_form = FormSended.objects.create(form=Form.objects.get(form_name=form_name), report_id=random.randint(1,1000000))
             
-            for ques in questions_query:
+            for i,ques in enumerate(questions_query):
                 ans_list.append(request.POST.get(ques.header))
                 ans = Answer.objects.get(answer_id = ques.question_id, answer_value = request.POST.get(ques.header))
                 sended_form.answers.add(ans)
@@ -107,7 +107,7 @@ def send_form(request):
                     SubAnswerChosen.objects.create(answer=ans, form=sended_form, sub_answer=sub_ans).save()
 
                 if ques.has_comment:
-                    Comments.objects.create(report_id=sended_form, question=ques, text=request.POST.get(ques.header+'_comment'))
+                    Comments.objects.create(report_id=sended_form, question=ques, text=request.POST.get(str(i)+'_comment'))
 
             query = Form.objects.filter(form_id=form_link)[0]
             questions_list = []

@@ -1,6 +1,5 @@
 django
 qrcode
 Pillow
-django-g-recaptcha
 pandas
 xlsxwriter

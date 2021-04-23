@@ -53,7 +53,10 @@ def login_stats(request):
                 
 
                 if question.has_comment:
-                    comments_list.append([form.report_id, question.header, Comments.objects.get(report_id=form, question=question).text])
+                    try:
+                        comments_list.append([form.report_id, question.header, Comments.objects.get(report_id=form, question=question).text])
+                    except:
+                        pass
                 if question.header not in questions:
                     questions[question.header] = []                  
                     questions_list.append(question)
