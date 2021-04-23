@@ -33,7 +33,7 @@
 {% block content %}
 <div class="container">
    <div class="row mb-5">
-    
+     {% if not empty %}
     <div class="jumbotron col-12">
         <h1 class="display-4">{{ form_name }}</h1>
         <hr class="my-4">
@@ -50,6 +50,14 @@
          {% endfor %}
 
    </div>
+   {% endif %}
+   {% if empty %}
+    <div class="jumbotron col-10 offset-1">
+        <h4 class="display-4">{{ form_name }}</h4>
+
+   </div>
+   {% endif %}
+   
 </div>
 
 <script>

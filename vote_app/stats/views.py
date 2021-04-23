@@ -35,6 +35,15 @@ def login_stats(request):
             return render(request, "stats/login_stats.html", context=data)
 
         forms = FormSended.objects.filter(form=Form.objects.get(form_name=form_name))
+        if len(forms) == 0:
+            data = {
+            'download_link' :  'none',
+            'form_name' : "Статистика отсутствет",
+            'questions' : [],
+            'data' : [],
+            'empty' : True,
+            }
+            return render(request, "stats/get_stats.html", context=data)
         tmp_s_a = []
         answers = []
         questions = {}
@@ -154,6 +163,7 @@ def login_stats(request):
             'form_name' : form_name,
             'questions' : res,
             'data' : res,
+            'empty' : False,
         }
         return render(request, "stats/get_stats.html", context=data)
 
