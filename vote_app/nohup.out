@@ -2940,3 +2940,5 @@ INFO:     176.59.213.231:0 - "GET /static/images/demo-4.png HTTP/1.0" 200 OK
 INFO:     176.59.213.231:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
 INFO:     176.59.213.231:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
 INFO:     176.59.213.231:0 - "GET /create_form/ HTTP/1.0" 200 OK
+INFO:     Shutting down
+INFO:     Finished server process [1173]
