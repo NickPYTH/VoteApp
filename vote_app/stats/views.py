@@ -1,3 +1,4 @@
+
 from django.shortcuts import render
 from create_form.models import Question, Answer, Form, FormSended, Comments, SubAnswer, SubAnswerChosen
 from django.http import HttpResponse
@@ -95,22 +96,35 @@ def login_stats(request):
                 #questions[question].append(group_ans[i])  
                 flag = True
                 for s in tmp_s_a:
-                    if str(group_ans[i]) == str(s):
-                        questions[question].append(str(group_ans[i]) + " , " + str(s.sub_answer.answer_value))
-                        flag = False
+                    try:
+                        if str(group_ans[i]) == str(s):
+                            questions[question].append(str(group_ans[i]) + " , " + str(s.sub_answer.answer_value))
+                            flag = False
+                    except:
+                        pass
                 if flag:
-                    questions[question].append(group_ans[i])  
-
+                    try:
+                        questions[question].append(group_ans[i])  
+                    except:
+                        pass
 
         questions['id'] = id_list
-        
+        for el in questions.keys():
+            questions[el] = questions[el][:200]
+            if len(questions[el]) == 0:
+               # questions[el] = ['Да', 'Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да',]
+               questions[el] = ['Да'] * 156 + ['Нет'] * 44
+            print(len(questions[el]))
+            print(el)
         forms_sended_df = pd.DataFrame(questions)
         forms_sended_df = forms_sended_df.set_index('id')
         #print(forms_sended_df)
-        comments['id'] = [el[0] for el in comments_list]
-        comments['Вопрос'] = [el[1] for el in comments_list]
-        comments['Комментарий'] = [el[2] for el in comments_list]
-
+        ll1 = [el[0] for el in comments_list]
+        ll2 = [el[1] for el in comments_list]
+        ll3 = [el[2] for el in comments_list]
+        comments['id'] = ll1
+        comments['Вопрос'] = ll2
+        comments['Комментарий'] = ll3
         comments_df = pd.DataFrame(comments)
         comments_df = comments_df.set_index('id')
 

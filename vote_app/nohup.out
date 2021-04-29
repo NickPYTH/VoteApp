@@ -2942,3 +2942,216 @@ INFO:     176.59.213.231:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
 INFO:     176.59.213.231:0 - "GET /create_form/ HTTP/1.0" 200 OK
 INFO:     Shutting down
 INFO:     Finished server process [1173]
+INFO:     Started server process [1746]
+INFO:     Waiting for application startup.
+INFO:     ASGI 'lifespan' protocol appears unsupported.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:     176.59.200.246:0 - "GET / HTTP/1.0" 200 OK
+INFO:     85.140.76.68:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     85.140.76.68:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     188.66.33.76:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     188.66.33.76:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     188.66.33.76:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     188.66.33.76:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     188.66.33.76:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     188.66.33.76:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     188.66.33.76:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     85.140.76.68:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     85.140.76.68:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     85.140.76.68:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     188.66.33.76:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     85.140.76.68:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     85.140.76.68:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     31.173.101.116:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     85.140.76.68:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     85.140.76.68:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     31.173.101.116:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+INFO:     85.140.76.68:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     31.173.101.116:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     178.176.112.237:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     178.176.112.237:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     178.176.112.237:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     178.176.112.237:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     178.176.112.237:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     178.176.112.237:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     178.176.112.237:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     178.176.112.237:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     176.59.196.143:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     188.66.35.226:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     188.66.35.226:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     188.66.35.226:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     188.66.35.226:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     188.66.35.226:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     188.66.35.226:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     188.66.35.226:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     188.66.35.226:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     85.140.76.68:0 - "POST /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     176.59.196.143:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.196.143:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.200.218:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.200.102:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.196.146:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     178.176.112.74:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.199.218:0 - "POST /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     176.59.199.218:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     83.169.216.13:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     188.66.33.76:0 - "POST /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     171.25.193.77:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     83.169.216.13:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     83.149.37.209:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+INFO:     171.25.193.77:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     83.169.216.13:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     83.169.216.13:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     83.169.216.13:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     171.25.193.77:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     171.25.193.77:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     171.25.193.77:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     171.25.193.77:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     171.25.193.77:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     83.149.37.209:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modified
+INFO:     171.25.193.77:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     85.140.17.79:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     83.169.216.13:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     83.169.216.13:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     83.169.216.13:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     83.169.216.13:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     85.140.23.129:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     85.140.23.129:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     85.140.23.129:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     85.140.23.129:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     85.140.23.129:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     85.140.23.129:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     85.140.23.129:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     85.140.23.129:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     31.173.120.213:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     31.173.120.213:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     31.173.120.213:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     31.173.120.213:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     31.173.120.213:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     31.173.120.213:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     31.173.120.213:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     31.173.120.213:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     31.173.120.213:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     188.66.33.76:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+Internal Server Error: /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/
+Traceback (most recent call last):
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 339, in thread_handler
+    raise exc_info[1]
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 304, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 339, in wait_for
+    return (yield from fut)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/asgiref/sync.py", line 343, in thread_handler
+    return func(*args, **kwargs)
+  File "./send_form/views.py", line 102, in send_form
+    ans = Answer.objects.get(answer_id = ques.question_id, answer_value = request.POST.get(ques.header))
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/VoteAppEnv/lib/python3.6/site-packages/django/db/models/query.py", line 431, in get
+    self.model._meta.object_name
+create_form.models.Answer.DoesNotExist: Answer matching query does not exist.
+INFO:     188.66.35.226:0 - "POST /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 500 Internal Server Error
+INFO:     188.66.35.226:0 - "GET /apple-touch-icon.png HTTP/1.0" 301 Moved Permanently
+INFO:     188.66.35.226:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     188.66.35.226:0 - "GET /apple-touch-icon-precomposed.png HTTP/1.0" 301 Moved Permanently
+INFO:     188.66.35.226:0 - "GET /apple-touch-icon.png/ HTTP/1.0" 200 OK
+INFO:     188.66.35.226:0 - "GET /apple-touch-icon-precomposed.png/ HTTP/1.0" 200 OK
+INFO:     188.66.35.226:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     31.173.100.186:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     85.140.25.162:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     176.59.200.82:0 - "GET / HTTP/1.0" 200 OK
+INFO:     171.25.193.77:0 - "POST /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     178.176.112.237:0 - "POST /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     176.59.200.82:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     176.59.200.82:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET / HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET / HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/demo-4.png HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /statistics/ HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "POST /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     178.176.112.237:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     31.173.100.186:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     176.59.196.146:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     213.87.248.171:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     213.87.248.171:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     213.87.248.171:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     213.87.248.171:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     213.87.248.171:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     213.87.248.171:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     213.87.248.171:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     213.87.248.171:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     176.59.208.80:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     176.59.208.80:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     176.59.200.102:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     79.140.243.147:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
+INFO:     176.59.200.82:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     176.59.200.82:0 - "GET / HTTP/1.0" 200 OK
+INFO:     176.59.200.82:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
+INFO:     178.176.112.131:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af HTTP/1.0" 301 Moved Permanently
+INFO:     178.176.112.131:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     178.176.112.131:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
+INFO:     178.176.112.131:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     178.176.112.131:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
+INFO:     178.176.112.131:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
+INFO:     178.176.112.131:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     178.176.112.131:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
+INFO:     178.176.112.131:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
+INFO:     176.59.200.82:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     176.59.200.82:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
+INFO:     31.173.103.193:0 - "GET /5b21a5c8a4699f6c8a65daf330d0b7216d6ff3af/ HTTP/1.0" 200 OK
+INFO:     31.173.103.193:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Finished server process [1746]
