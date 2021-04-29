@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class CreateFormConfig(AppConfig):
+class create_formConfig(AppConfig):
     name = 'create_form'

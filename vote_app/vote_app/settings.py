@@ -35,9 +35,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['188.225.83.42', 'voteforms.anketa-pvi.ru', '127.0.0.1']
 
-INDEX_LINK = 'http://voteforms.anketa-pvi.ru/'
+#INDEX_LINK = 'http://voteforms.anketa-pvi.ru/'
 
-#INDEX_LINK = 'http://127.0.0.1:8001/'
+INDEX_LINK = 'http://127.0.0.1:8001/'
 
 # Application definition
 
@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'create_form',
     'send_form',
     'stats',
+    'edit',
 ]
 
 MIDDLEWARE = [

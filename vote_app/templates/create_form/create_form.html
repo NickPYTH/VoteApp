@@ -7,7 +7,7 @@
 
 {% block nav%}
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end mb-4">
-   <a class="navbar-brand" href="{% url "createForm" %}">
+   <a class="navbar-brand" href="{% url "create_form" %}">
    <img src="{% static "images/create_form.svg" %}" width="40" height="40" alt="Logo">
    {% block headerName %}
    <span class="mt-2 align-middle">Создание формы</span>
@@ -128,9 +128,9 @@
                                 <button id="AddAnswer_1" type="button" class="btn btn-light d-none mb-lg-0 mb-3" onclick="AddAnswer(this, 1);">Добавить ответ</button>
                                 <button id="RemoveAnswer_1" type="button" class="btn btn-light d-none mb-lg-0 mb-3" onclick="RemoveAnswer(this, 1);">Удалить ответ</button>
                                 <button id="CustomAnswers_1" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="CustomAnswers(this);">Задать свои ответы</button>
-                                <button id="SubAnswers_1" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="SubAnswers(this);">New</button>
+                                <button id="SubAnswers_1" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="SubAnswers(this);">Вопросы с подгруппами</button>
                                 <button id="DefaultAnswers_1" type="button" class="btn btn-light active mb-lg-0 mb-3" onclick="DefaultAnswers(this);">Ответы 1-5</button>
-                                <button id="112" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="AddCommentField(this);">Добавить поле коментария</button>
+                                <button id="AddComment_1" type="button" class="btn btn-light mb-lg-0 mb-3" onclick="AddCommentField(this);">Добавить поле коментария</button>
                                 <input id="isCommentVal_1" name="isCommentVal_1" class="d-none" type="text">
                                 
                             </div>
@@ -162,6 +162,6 @@
     </div>
     
     
-    <script src="{% static 'js/createForm.js' %}"></script>
+    <script src="{% static 'js/create_form.js' %}"></script>
     
 {% endblock content %}

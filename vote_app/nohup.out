@@ -9,17 +9,17 @@ INFO:     5.59.231.232:0 - "GET /static/js/sendForm.js HTTP/1.0" 304 Not Modifie
 INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "POST /d937444357147f4439ea504e708a27e5426d3009/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
-INFO:     176.59.207.164:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
-INFO:     176.59.207.164:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.164:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
+INFO:     176.59.207.164:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.207.164:0 - "GET / HTTP/1.0" 200 OK
-INFO:     176.59.207.164:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.164:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /553ae7da92f5505a92bbb8c9d47be76ab9f65bc2/ HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     176.59.207.29:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
@@ -33,7 +33,7 @@ INFO:     66.249.93.23:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
 INFO:     66.249.93.23:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
 INFO:     66.249.93.25:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     66.249.93.25:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
-INFO:     66.249.93.25:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     66.249.93.25:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     66.249.93.23:0 - "GET /static/images/demo-4.png HTTP/1.0" 200 OK
 INFO:     66.249.93.25:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     66.249.93.23:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
@@ -46,7 +46,7 @@ INFO:     66.249.93.23:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     66.249.93.23:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
 INFO:     66.249.93.23:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
 INFO:     66.249.93.25:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
-INFO:     66.249.93.24:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     66.249.93.24:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     66.249.93.23:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     66.249.93.25:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
 INFO:     66.249.93.23:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
@@ -66,15 +66,15 @@ INFO:     66.249.93.25:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
 INFO:     66.249.93.24:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     66.249.93.24:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
 INFO:     66.249.93.25:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
-INFO:     66.249.93.24:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
-INFO:     66.249.93.24:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     66.249.93.24:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
+INFO:     66.249.93.24:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     66.249.93.24:0 - "GET /create_form/ HTTP/1.0" 200 OK
 INFO:     66.249.93.24:0 - "GET /create_form/ HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     217.151.131.56:0 - "GET / HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     217.151.131.56:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
@@ -338,7 +338,7 @@ INFO:     ASGI 'lifespan' protocol appears unsupported.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)
 INFO:     5.59.231.232:0 - "GET /create_form/ HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "POST /a94a8fe5ccb19ba61c4c0873d391e987982fbbd3/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
@@ -348,7 +348,7 @@ INFO:     5.59.231.232:0 - "GET /mediafiles/statistic_files/a94a8fe5ccb19ba61c4c
 INFO:     176.59.207.29:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     176.59.207.29:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
@@ -392,7 +392,7 @@ INFO:     83.149.37.36:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
 INFO:     83.149.37.36:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
 INFO:     83.149.37.36:0 - "POST /3c9738a4145a96082d03369a9ef9bb1009f6976b/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /create_form/ HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /admin_page/create_form/form/5/change/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/admin/css/base.css HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/admin/css/nav_sidebar.css HTTP/1.0" 200 OK
@@ -427,11 +427,11 @@ INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not
 INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /create_form/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
@@ -467,7 +467,7 @@ INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)
 INFO:     5.59.231.232:0 - "GET /create_form/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
@@ -689,7 +689,7 @@ INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not
 INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/demo-3.png HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
@@ -700,7 +700,7 @@ INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modif
 INFO:     5.59.231.232:0 - "GET /create_form/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "POST /create_form/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/js/qrcode.js HTTP/1.0" 304 Not Modified
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4 HTTP/1.0" 301 Moved Permanently
 [[0, 'аыывавы', 'fdsfsd', 11, 'sub', [['dfsdfs', ['dsfsdf', 'dsfsd', 'dfssdf', 'fsdf']], ['fdsfsf', ['dsfsfdf']], ['ddf', ['f']], ['fsd', ['f']], ['fds', ['sdf']], ['dsfsd', ['f']], ['dsf', ['fds']], ['dsf', ['sd']], ['fsd', ['fsd']], ['dfsfds', ['fsdfs']], ['fsdf', ['sfdsf']]], [<Answer: dfsdfs>, <Answer: fdsfsf>, <Answer: ddf>, <Answer: fsd>, <Answer: fds>, <Answer: dsfsd>, <Answer: dsf>, <Answer: dsf>, <Answer: fsd>, <Answer: dfsfds>, <Answer: fsdf>]], [1, 'dfsdf', 'dsf', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [2, 'dfsf', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]], [3, 'dsfs', 'Выберите вариант ответа', 2, 'other', [<Answer: dsf>, <Answer: fsdf>]], [4, 'dfsfsd', '', 5, 'other', [<Answer: 1>, <Answer: 2>, <Answer: 3>, <Answer: 4>, <Answer: 5>]]]
 INFO:     5.59.231.232:0 - "GET /0f20b6db90a3a46058ed10b1f69d6775e6ec1cf4/ HTTP/1.0" 200 OK
@@ -714,7 +714,7 @@ INFO:     5.59.231.232:0 - "POST /statistics/ HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     176.59.207.29:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
-INFO:     176.59.207.29:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.207.29:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.207.29:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
 INFO:     176.59.207.29:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
@@ -872,7 +872,7 @@ INFO:     176.59.207.29:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
@@ -1081,7 +1081,7 @@ INFO:     5.59.231.232:0 - "POST /statistics/ HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
-INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET /static/images/demo-3.png HTTP/1.0" 304 Not Modified
@@ -1091,10 +1091,10 @@ INFO:     176.59.201.110:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modifi
 INFO:     176.59.201.110:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET /static/images/demo-4.png HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
-INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "GET /create_form/ HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
-INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.201.110:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "POST /create_form/ HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "GET /static/js/qrcode.js HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET /5116c28e651a19013822c09e5c70c9fc425a66dc HTTP/1.0" 301 Moved Permanently
@@ -1133,7 +1133,7 @@ INFO:     176.59.201.110:0 - "GET /favicon.ico HTTP/1.0" 301 Moved Permanently
 INFO:     176.59.201.110:0 - "GET /favicon.ico/ HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "POST /5116c28e651a19013822c09e5c70c9fc425a66dc/ HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
-INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.201.110:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
@@ -1232,7 +1232,7 @@ INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "GET /create_form/ HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.201.110:0 - "GET / HTTP/1.0" 200 OK
-INFO:     176.59.201.110:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.201.110:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     83.169.216.20:0 - "GET /3c9738a4145a96082d03369a9ef9bb1009f6976b HTTP/1.0" 301 Moved Permanently
 INFO:     83.169.216.20:0 - "GET /3c9738a4145a96082d03369a9ef9bb1009f6976b/ HTTP/1.0" 200 OK
 INFO:     83.169.216.20:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
@@ -1247,21 +1247,21 @@ INFO:     176.59.197.208:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 No
 INFO:     176.59.197.208:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     176.59.197.208:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.197.208:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
-INFO:     176.59.197.208:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     176.59.197.208:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
 INFO:     176.59.197.208:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.197.208:0 - "GET /static/images/demo-3.png HTTP/1.0" 304 Not Modified
 INFO:     176.59.197.208:0 - "GET /static/images/demo-4.png HTTP/1.0" 304 Not Modified
-INFO:     176.59.197.208:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.197.208:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     176.59.197.208:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.197.208:0 - "GET /create_form/ HTTP/1.0" 200 OK
 INFO:     176.59.197.208:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modified
-INFO:     176.59.197.208:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.197.208:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.197.208:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.207.29:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     176.59.207.29:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
-INFO:     176.59.207.29:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.207.29:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     176.59.207.29:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.207.29:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
 INFO:     176.59.207.29:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
@@ -1311,7 +1311,7 @@ INFO:     213.87.242.34:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not
 INFO:     217.151.131.56:0 - "GET / HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     217.151.131.56:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     217.151.131.56:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
@@ -1340,7 +1340,7 @@ INFO:     217.151.131.56:0 - "GET / HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET / HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     46.250.74.214:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
@@ -1516,7 +1516,7 @@ INFO:     95.30.217.196:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
 INFO:     95.30.217.196:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
 INFO:     95.30.217.196:0 - "GET /static/js/sendForm.js HTTP/1.0" 200 OK
 INFO:     83.169.216.21:0 - "GET / HTTP/1.0" 200 OK
-INFO:     83.169.216.21:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     83.169.216.21:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     83.169.216.21:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     83.169.216.21:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     83.169.216.21:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
@@ -1531,7 +1531,7 @@ INFO:     188.43.126.197:0 - "GET /static/images/demo-4.png HTTP/1.0" 200 OK
 INFO:     188.43.126.197:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
 INFO:     188.43.126.197:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
 INFO:     188.43.126.197:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
-INFO:     188.43.126.197:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     188.43.126.197:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     188.43.126.197:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
 INFO:     188.43.126.197:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     188.43.126.197:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
@@ -1845,7 +1845,7 @@ INFO:     46.250.74.214:0 - "GET /1e8bea49920712a193ded826680dff76abfe76eb/ HTTP
 INFO:     46.250.74.214:0 - "GET / HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     46.250.74.214:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
-INFO:     46.250.74.214:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     46.250.74.214:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
@@ -1862,7 +1862,7 @@ INFO:     85.140.18.90:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modifi
 INFO:     217.151.131.56:0 - "GET / HTTP/1.0" 200 OK
 INFO:     217.151.131.56:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     217.151.131.56:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
-INFO:     217.151.131.56:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     217.151.131.56:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     217.151.131.56:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
 INFO:     217.151.131.56:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     217.151.131.56:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
@@ -2127,7 +2127,7 @@ INFO:     46.250.74.214:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modif
 INFO:     46.250.74.214:0 - "GET /79f2e7513bf39e3948076ad5e30ee0dffc59c95f/ HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET / HTTP/1.0" 200 OK
 INFO:     46.250.74.214:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
-INFO:     46.250.74.214:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     46.250.74.214:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     46.250.74.214:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     46.250.74.214:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
 INFO:     46.250.74.214:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
@@ -2144,11 +2144,11 @@ INFO:     111.7.100.21:0 - "GET / HTTP/1.0" 200 OK
 INFO:     111.7.100.23:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     111.7.100.20:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
 INFO:     111.7.100.20:0 - "GET / HTTP/1.0" 200 OK
-INFO:     111.7.100.20:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     111.7.100.20:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.213.48:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.213.48:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
 INFO:     176.59.213.48:0 - "GET /static/images/demo-3.png HTTP/1.0" 200 OK
-INFO:     176.59.213.48:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.213.48:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     176.59.213.48:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     176.59.213.48:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
 INFO:     176.59.213.48:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
@@ -2193,7 +2193,7 @@ INFO:     176.59.212.59:0 - "GET /static/images/vote.svg HTTP/1.0" 304 Not Modif
 INFO:     176.59.212.59:0 - "POST /79f2e7513bf39e3948076ad5e30ee0dffc59c95f/ HTTP/1.0" 200 OK
 INFO:     176.59.212.59:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.212.59:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
-INFO:     176.59.212.59:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     176.59.212.59:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     176.59.212.59:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     176.59.212.59:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
 INFO:     176.59.212.59:0 - "GET /static/images/demo-2.png HTTP/1.0" 304 Not Modified
@@ -2211,7 +2211,7 @@ INFO:     31.173.100.181:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 No
 INFO:     42.236.10.114:0 - "GET / HTTP/1.0" 200 OK
 INFO:     42.236.10.114:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     42.236.10.114:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     42.236.10.114:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     42.236.10.114:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     42.236.10.106:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     42.236.10.114:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     42.236.10.106:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
@@ -2224,7 +2224,7 @@ INFO:     42.236.10.114:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
 INFO:     188.19.61.155:0 - "GET / HTTP/1.0" 200 OK
 INFO:     188.19.61.155:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     188.19.61.155:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
-INFO:     188.19.61.155:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     188.19.61.155:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     188.19.61.155:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
 INFO:     188.19.61.155:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     188.19.61.155:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
@@ -2244,7 +2244,7 @@ INFO:     85.140.12.150:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
 INFO:     85.140.12.150:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
 INFO:     85.140.12.150:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
 INFO:     85.140.12.214:0 - "GET / HTTP/1.0" 200 OK
-INFO:     85.140.12.214:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     85.140.12.214:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     85.140.12.214:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     85.140.12.214:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     85.140.12.214:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
@@ -2297,7 +2297,7 @@ INFO:     94.25.179.154:0 - "GET /static/images/logo_black.svg HTTP/1.0" 304 Not
 INFO:     176.59.193.192:0 - "GET / HTTP/1.0" 200 OK
 INFO:     176.59.193.192:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     176.59.193.192:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
-INFO:     176.59.193.192:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.193.192:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.193.192:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     176.59.193.192:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     176.59.193.192:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
@@ -2310,7 +2310,7 @@ INFO:     176.59.193.192:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
 INFO:     94.125.242.230:0 - "GET / HTTP/1.0" 200 OK
 INFO:     94.125.242.230:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
 INFO:     94.125.242.230:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
-INFO:     94.125.242.230:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     94.125.242.230:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     94.125.242.230:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
 INFO:     94.125.242.230:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     94.125.242.230:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
@@ -2384,7 +2384,7 @@ INFO:     94.125.242.230:0 - "GET /mediafiles/statistic_files/79f2e7513bf39e3948
 INFO:     94.125.243.33:0 - "GET / HTTP/1.0" 200 OK
 INFO:     94.125.243.33:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     94.125.243.33:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     94.125.243.33:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     94.125.243.33:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     94.125.243.33:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     94.125.243.33:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     94.125.243.33:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
@@ -2396,7 +2396,7 @@ INFO:     94.125.243.33:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
@@ -2535,7 +2535,7 @@ INFO:     5.45.207.137:0 - "GET /robots.txt/ HTTP/1.0" 200 OK
 INFO:     5.45.207.125:0 - "GET / HTTP/1.0" 200 OK
 INFO:     213.87.240.118:0 - "GET /static/css/styles.css HTTP/1.0" 304 Not Modified
 INFO:     213.87.240.118:0 - "GET /static/css/index.css HTTP/1.0" 304 Not Modified
-INFO:     213.87.240.118:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     213.87.240.118:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     213.87.240.118:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     213.87.240.118:0 - "GET /static/images/create_form.svg HTTP/1.0" 304 Not Modified
 INFO:     213.87.240.118:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
@@ -2553,7 +2553,7 @@ INFO:     ASGI 'lifespan' protocol appears unsupported.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)
 INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 304 Not Modified
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/logo_white.svg HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 304 Not Modified
 INFO:     5.59.231.232:0 - "GET /static/images/demo-1.png HTTP/1.0" 304 Not Modified
@@ -2567,7 +2567,7 @@ INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
@@ -2693,7 +2693,7 @@ INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET / HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/styles.css HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/css/index.css HTTP/1.0" 200 OK
-INFO:     5.59.231.232:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     5.59.231.232:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/arrow-left.svg HTTP/1.0" 200 OK
 INFO:     5.59.231.232:0 - "GET /static/images/demo-2.png HTTP/1.0" 200 OK
@@ -2931,7 +2931,7 @@ INFO:     176.59.213.231:0 - "GET /static/images/create_form.svg HTTP/1.0" 200 O
 INFO:     176.59.213.231:0 - "GET /static/images/vote.svg HTTP/1.0" 200 OK
 INFO:     176.59.213.231:0 - "GET /static/images/logo_black.svg HTTP/1.0" 200 OK
 INFO:     176.59.213.231:0 - "GET / HTTP/1.0" 200 OK
-INFO:     176.59.213.231:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     176.59.213.231:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     176.59.213.231:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     176.59.213.231:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     176.59.213.231:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK
@@ -3102,7 +3102,7 @@ INFO:     176.59.200.82:0 - "GET /admin_page/create_form/form/ HTTP/1.0" 200 OK
 INFO:     176.59.200.82:0 - "GET /admin_page/jsi18n/ HTTP/1.0" 200 OK
 INFO:     85.140.17.79:0 - "GET / HTTP/1.0" 200 OK
 INFO:     85.140.17.79:0 - "GET / HTTP/1.0" 200 OK
-INFO:     85.140.17.79:0 - "GET /static/js/createForm.js HTTP/1.0" 200 OK
+INFO:     85.140.17.79:0 - "GET /static/js/create_form.js HTTP/1.0" 200 OK
 INFO:     85.140.17.79:0 - "GET /static/images/logo_white.svg HTTP/1.0" 200 OK
 INFO:     85.140.17.79:0 - "GET /static/images/stats.svg HTTP/1.0" 200 OK
 INFO:     85.140.17.79:0 - "GET /static/images/demo-1.png HTTP/1.0" 200 OK

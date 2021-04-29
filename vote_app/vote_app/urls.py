@@ -20,6 +20,7 @@ from django.urls import path, include, re_path
 from create_form import views as create_form_views
 from send_form import views as send_form_views
 from stats import views as stats_views
+from edit import views as edit_views
 
 urlpatterns = []
 
@@ -30,8 +31,9 @@ if settings.DEBUG:
 urlpatterns += [
     path('admin_page/', admin.site.urls, name="admin"),
     path('', create_form_views.index, name="index"),
-    path('create_form/', create_form_views.create_form, name="createForm"),
+    path('create_form/', create_form_views.create_form, name="create_form"),
     path('statistics/', stats_views.login_stats, name="stats"), 
+    path('edit/', edit_views.login_edit, name="edit"), 
     re_path(r'[A-Z, a-z, 0-9]/', send_form_views.send_form, name="sendForm"),
 ]
 
