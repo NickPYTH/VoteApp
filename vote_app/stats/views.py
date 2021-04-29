@@ -53,7 +53,9 @@ def login_stats(request):
         id_list = [ el.report_id for el in forms ]
         comments_list = []
         for form in forms:
+            #print("-----------------------")
             for answer in form.answers.all():
+                #print(answer.answer_value)
                 question = Question.objects.get(question_id=answer.answer_id)
 
                 sub_ans = SubAnswerChosen.objects.filter(answer=answer, form=form)
@@ -71,23 +73,22 @@ def login_stats(request):
                     questions[question.header] = []                  
                     questions_list.append(question)
                 answers.append(answer.answer_value)
-
+        
         #const_jump = int(sqrt(len(answers)))
-        const_jump = int(len(answers)/len(forms))
-        jump = const_jump
+        const_jump = len(answers)/len(forms)
+        jump = len(questions_list)
         group_answers = []
         tmp = []
         for i, answer in enumerate(answers):
-
             if jump != 0:
                 tmp.append(answer)
                 jump -= 1
             else:
-                jump = const_jump
+                jump = len(questions_list)
                 tmp = []
                 tmp.append(answer)
                 jump -= 1
-            if len(tmp) == const_jump:
+            if len(tmp) == len(questions_list):
                 group_answers.append(tmp)
             
 
@@ -109,16 +110,16 @@ def login_stats(request):
                         pass
 
         questions['id'] = id_list
+        min_len_of_ans = 0 # fix after!!
+        m_l = []
         for el in questions.keys():
-            questions[el] = questions[el][:200]
-            if len(questions[el]) == 0:
-               # questions[el] = ['Да', 'Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да','Да',]
-               questions[el] = ['Да'] * 156 + ['Нет'] * 44
-            print(len(questions[el]))
-            print(el)
+            m_l.append(len(questions[el]))
+        min_len_of_ans = min(m_l)
+        for el in questions.keys():
+            questions[el] = questions[el][:min_len_of_ans]
+            
         forms_sended_df = pd.DataFrame(questions)
         forms_sended_df = forms_sended_df.set_index('id')
-        #print(forms_sended_df)
         ll1 = [el[0] for el in comments_list]
         ll2 = [el[1] for el in comments_list]
         ll3 = [el[2] for el in comments_list]
@@ -135,7 +136,7 @@ def login_stats(request):
             form_info[ques.header] = Answer.objects.filter(answer_id=ques.question_id)
             print(len(Answer.objects.filter(answer_id=ques.question_id)))
         form_info_df = pd.DataFrame(form_info)'''
-
+        
         output = pd.ExcelWriter('mediafiles/statistic_files/'+str(current_form.form_id)+'.xlsx', engine = 'xlsxwriter')
         forms_sended_df.to_excel(output, sheet_name = 'Отправленные')
         comments_df.to_excel(output, sheet_name = 'Комментарии')
