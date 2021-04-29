@@ -16,12 +16,16 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
          {% block headerStat %}
+         <a class="navbar-brand" href="{% url "edit" %}">
+            <img src="{% static "images/edit.svg" %}" width="35" height="35" alt="Stats">
+            Редакция
+            </a>
          <a class="navbar-brand" href="{% url "stats" %}">
          <img src="{% static "images/stats.svg" %}" width="35" height="35" alt="Stats">
          Статистика
          </a>
-         <a class="navbar-brand" href="{% url "createForm" %}">
-         <img src="{% static "images/create_form.svg" %}" width="35" height="35" alt="Stats">
+         <a class="navbar-brand" href="{% url "create_form" %}">
+         <img src="{% static "images/create.svg" %}"  width="35" height="35" alt="Stats">
          Конструкор
          </a> 
          {% endblock headerStat %}
@@ -47,7 +51,7 @@
                     </ul>
                 </div>
                 <div class="pl-lg-5 text-center mb-3">
-                    <a style="width: 18rem;" href="{% url "createForm" %}" class="btn btn-secondary ">Создать анкету</a>
+                    <a style="width: 18rem;" href="{% url "create_form" %}" class="btn btn-secondary ">Создать анкету</a>
                 </div>
             </div>
             
@@ -99,5 +103,5 @@
      
 
 
-    <script src="{% static 'js/createForm.js' %}"></script>
+    <script src="{% static 'js/create_form.js' %}"></script>
 {% endblock content %}

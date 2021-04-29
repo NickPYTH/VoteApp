@@ -16,6 +16,7 @@
          Главная · VF
          {% endblock title %}
       </title>
+
    </head>
    <body>
       {% block nav%}
@@ -35,6 +36,10 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                {% block headerStat %}
+               <a class="navbar-brand" href="{% url "edit" %}">
+                  <img src="{% static "images/edit.svg" %}" width="35" height="35" alt="Stats">
+                  Редакция
+               </a> 
                <a class="navbar-brand" href="{% url "stats" %}">
                <img src="{% static "images/stats.svg" %}" width="35" height="35" alt="Stats">
                Статистика
