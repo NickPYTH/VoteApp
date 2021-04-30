@@ -21,6 +21,10 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
          {% block headerStat %}
+         <a class="navbar-brand" href="{% url 'index' %}">
+            <img src="{% static "images/vote.svg" %}" width="35" height="35" alt="Stats">
+            Главная
+            </a>
          <a class="navbar-brand" href="{% url "stats" %}">
          <img src="{% static "images/stats.svg" %}" width="35" height="35" alt="Stats">
          Статистика

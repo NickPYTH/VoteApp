@@ -8,7 +8,7 @@
 {% block nav%}
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end mb-4">
    <a class="navbar-brand" href="">
-   <img src="{% static "images/create_form.svg" %}" width="40" height="40" alt="Logo">
+   <img src="{% static "images/stats.svg" %}" width="40" height="40" alt="Logo">
    {% block headerName %}
    <span class="mt-2">Статистика</span>
    {% endblock headerName %}
@@ -24,7 +24,15 @@
          <a class="navbar-brand" href="{% url 'index' %}">
          <img src="{% static "images/vote.svg" %}" width="35" height="35" alt="Stats">
          Главная
-         </a> 
+         </a>
+         <a class="navbar-brand" href="{% url "edit" %}">
+            <img src="{% static "images/edit.svg" %}" width="35" height="35" alt="Stats">
+            Редакция
+         </a>
+         <a class="navbar-brand" href="{% url "create_form" %}">
+            <img src="{% static "images/create.svg" %}"  width="35" height="35" alt="Stats">
+            Конструкор
+            </a> 
          {% endblock headerStat %}
       </form>
    </div>
