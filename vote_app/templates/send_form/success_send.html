@@ -8,9 +8,9 @@
 {% block nav%}
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end mb-4">
    <a class="navbar-brand" href="">
-   <img src="{% static "images/create_form.svg" %}" width="40" height="40" alt="Logo">
+   <img src="{% static "images/logo_white.svg" %}" width="40" height="40" alt="Logo">
    {% block headerName %}
-   <span class="mt-2">{{ form_name }}</span>
+   <span class="mt-2 ">VoteApp</span>
    {% endblock headerName %}
    </a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,10 +36,10 @@
    <div class="col-12">
       <div class="card d-flex justify-content-center text-center p-5">
          <div class="alert alert-success text-center mb-4" role="alert">
-            Форма успешно отправлена!
+            Форма "{{ form_name }}" успешно отправлена!
          </div>
          <div class="text-center mb-4">
-            <p class="h3">Статистика опроса</p>
+            <p class="h3">Текущая статистика</p>
          </div>
          {% for record in data %}
 
