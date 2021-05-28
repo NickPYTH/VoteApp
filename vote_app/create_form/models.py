@@ -62,6 +62,7 @@ class FormSended(models.Model):
     form = models.ForeignKey(Form, on_delete = models.CASCADE)
     answers = models.ManyToManyField(Answer)
     report_id = models.CharField(max_length=50)
+    data = models.DateField(default=datetime.date.today)
     
 
     class Meta:
